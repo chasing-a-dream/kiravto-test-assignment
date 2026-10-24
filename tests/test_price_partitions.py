@@ -3,9 +3,10 @@ import json
 import math
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 from kiravto.partitioned_source import price_manifest,PartitionedPublicSource
-from kiravto.source import SourceFormatError
+from kiravto.source import SourceFormatError,SourceTransportError,InventoryDriftError
 
 
 class NativePrices:
@@ -85,6 +86,159 @@ class PricePartitionTests(unittest.TestCase):
         native.mutate=mutate
         with self.assertRaisesRegex(SourceFormatError,'children'):price_manifest(native,'all')
 
+    def test_real_counter_drift_requires_fresh_parent_and_all_unique_rows(self):
+        measured=json.loads(Path('tests/fixtures/ris-inventory-drift-counts.json').read_text(encoding='utf-8'))['responses']
+        before=measured[0]['pagination']['total_offers_count']
+        after=measured[-1]['pagination']['total_offers_count']
+        self.assertEqual(sum(r['pagination']['total_offers_count'] for r in measured[1:3]),after)
+        native=NativePrices(prices=tuple(range(1,200))+tuple(range(5000001,5000086)),capacity=37)
+        def mutate(data,bounds,count):
+            if count==1:data['pagination']['total_offers_count']=before
+        native.mutate=mutate
+        result=price_manifest(native,'all')
+        self.assertEqual(result['total'],after)
+        self.assertEqual(len(result['identities']),after)
+        self.assertEqual(len(result['observations']),after)
+        self.assertEqual(result['evidence'][0]['original_total'],before)
+        self.assertTrue(any(n.get('kind')=='partition_count_recheck' for n in result['evidence']))
+
+    def test_recheck_rejects_same_counter_with_unenumerated_replacement(self):
+        native=NativePrices();root_reads=[]
+        def mutate(data,bounds,count):
+            if not bounds:
+                root_reads.append(1)
+                if len(root_reads)==1:data['pagination']['total_offers_count']-=1
+                else:
+                    raw=data['offers'][0];identity='9999999999-abcdef01'
+                    raw.update(id='9999999999',saleId=identity,idHash=identity,url='https://auto.ru/cars/used/sale/nissan/maxima/'+identity+'/')
+        native.mutate=mutate
+        with self.assertRaisesRegex(InventoryDriftError,'unenumerated IDs'):price_manifest(native,'all')
+
+    def test_drift_recheck_still_honors_request_budget(self):
+        native=NativePrices(prices=(100,200,300),capacity=2)
+        native.mutate=lambda data,bounds,count:data['pagination'].update(total_offers_count=2) if count==1 else None
+        with self.assertRaisesRegex(SourceFormatError,'resource limit'):
+            price_manifest(native,'all',max_requests=3)
+        self.assertEqual(len(native.calls),3)
+
+    def test_recheck_cannot_accept_empty_or_duplicate_positive_root(self):
+        for mode in ('empty','duplicate'):
+            native=NativePrices();roots=[]
+            def mutate(data,bounds,count):
+                if not bounds:
+                    roots.append(1)
+                    if len(roots)==1:data['pagination']['total_offers_count']-=1
+                    elif mode=='empty':data['offers']=[]
+                    else:data['offers']=[copy.deepcopy(data['offers'][0])]*2
+            native.mutate=mutate
+            with self.subTest(mode=mode),self.assertRaisesRegex(InventoryDriftError,'empty or duplicate'):
+                price_manifest(native,'all')
+
+    def test_collector_retries_only_drift_once_and_reuses_validated_cards(self):
+        from kiravto.autoru_collector import collect
+        from kiravto.domain import Store
+        native=NativePrices(prices=(100,200))
+        for raw in native.offers:
+            for photo in raw['state']['image_urls']:
+                photo['sizes']['orig']=photo['sizes']['1200x900']
+        class Source:
+            def __init__(self):self.pause=0;self.requests=0;self.verifications=0;self.fetched=0
+            def inventory_manifest(self,section='all'):return price_manifest(self.fetch_price_listing,section)
+            def fetch_price_listing(self,section,bounds,page=1):
+                self.requests+=1;return native(section,bounds,page)
+            def card(self,identity):
+                self.requests+=1;self.fetched+=1
+                return next(raw for raw in native.offers if raw['saleId']==identity)
+            def verify_inventory(self,*args):
+                self.verifications+=1
+                if self.verifications==1:raise InventoryDriftError('Inventory moved during cards')
+                return PartitionedPublicSource.verify_inventory(self,*args)
+        with tempfile.TemporaryDirectory(dir='data') as folder,patch('kiravto.autoru_collector.time.sleep'):
+            source=Source();path=str(Path(folder)/'stock.db')
+            result=collect(path,fetcher=source,notify=False)
+            self.assertTrue(result['complete'])
+            self.assertEqual(source.verifications,2)
+            self.assertEqual(source.fetched,2)
+            self.assertEqual([a['complete'] for a in result['collection_attempts']],[False,True])
+            self.assertEqual(sum(a['requests'] for a in result['collection_attempts']),source.requests)
+            store=Store(path)
+            try:
+                self.assertEqual(store.stock()['active'],2)
+                self.assertEqual(len(store.runs()),2)
+                self.assertEqual(store.db.execute("select count(*) from events where kind='removed'").fetchone()[0],0)
+            finally:store.close()
+
+    def test_persistent_drift_is_bounded_and_never_combines_attempts(self):
+        from kiravto.autoru_collector import collect
+        class Source:
+            requests=0;calls=0
+            def inventory_manifest(self,section='all'):
+                self.requests+=1;self.calls+=1
+                raise InventoryDriftError('Still moving')
+        with tempfile.TemporaryDirectory(dir='data') as folder,patch('kiravto.autoru_collector.time.sleep'):
+            source=Source();result=collect(str(Path(folder)/'stock.db'),fetcher=source,notify=False)
+            self.assertEqual(source.calls,2)
+            self.assertFalse(result['complete'])
+            self.assertEqual(result['count'],0)
+            self.assertEqual(result['collection_total_requests'],2)
+
+    def test_retry_discards_old_manifest_and_cannot_remove_unconfirmed_missing(self):
+        from kiravto.autoru_collector import collect
+        from kiravto.domain import Store
+        native=NativePrices(prices=(100,200))
+        for raw in native.offers:
+            for photo in raw['state']['image_urls']:photo['sizes']['orig']=photo['sizes']['1200x900']
+        class Source:
+            requests=0;checks=0;pause=0
+            def inventory_manifest(self,section='all'):return price_manifest(self.fetch_price_listing,section)
+            def fetch_price_listing(self,section,bounds,page=1):
+                self.requests+=1;return native(section,bounds,page)
+            def card(self,identity):return next(raw for raw in native.offers if raw['saleId']==identity)
+            def verify_inventory(self,*args):
+                self.checks+=1
+                if self.checks==1:
+                    native.offers.pop(0)
+                    raise InventoryDriftError('An ID disappeared during card collection')
+                return PartitionedPublicSource.verify_inventory(self,*args)
+        with tempfile.TemporaryDirectory(dir='data') as folder,patch('kiravto.autoru_collector.time.sleep'):
+            path=str(Path(folder)/'stock.db');result=collect(path,fetcher=Source(),notify=False)
+            self.assertEqual([r['count'] for r in result['collection_attempts']],[2,1])
+            self.assertEqual(result['seen_ids'],1)
+            self.assertFalse(result['complete'])
+            self.assertIn('missing_offer_confirmation_required',result['limitations'])
+            store=Store(path)
+            try:self.assertEqual(store.stock()['active'],2)
+            finally:store.close()
+
+    def test_prior_transport_failure_prevents_extra_drift_attempt(self):
+        from kiravto.autoru_collector import collect
+        native=NativePrices(prices=(100,200))
+        class Source:
+            requests=0;manifests=0
+            def inventory_manifest(self,section='all'):
+                self.manifests+=1;return price_manifest(native,section)
+            def card(self,identity):raise SourceTransportError('Transport retry already exhausted')
+            def verify_inventory(self,*args):raise InventoryDriftError('Inventory also moved')
+        with tempfile.TemporaryDirectory(dir='data') as folder,patch('kiravto.autoru_collector.time.sleep') as sleep:
+            source=Source();result=collect(str(Path(folder)/'stock.db'),fetcher=source,notify=False)
+            self.assertEqual(source.manifests,1)
+            self.assertFalse(result['complete'])
+            self.assertGreater(len(result['errors']),1)
+            sleep.assert_not_called()
+
+    def test_http_schema_and_filter_errors_are_never_collection_retried(self):
+        from kiravto.autoru_collector import collect
+        class Source:
+            requests=0;calls=0
+            def inventory_manifest(self,section='all'):
+                self.requests+=1;self.calls+=1
+                raise SourceFormatError('HTTP403 or changed schema')
+        with tempfile.TemporaryDirectory(dir='data') as folder,patch('kiravto.autoru_collector.time.sleep') as sleep:
+            source=Source();result=collect(str(Path(folder)/'stock.db'),fetcher=source,notify=False)
+            self.assertEqual(source.calls,1)
+            self.assertFalse(result['complete'])
+            sleep.assert_not_called()
+
     def test_equal_price_bucket_uses_bounded_pages_without_dropping_rows(self):
         native=NativePrices(prices=(100,100,100))
         result=price_manifest(native,'all')
@@ -156,7 +310,7 @@ class PricePartitionTests(unittest.TestCase):
             source.verify_inventory(initial['identities'],initial['parameters'],[],6)
 
     def test_final_root_duplicate_and_invalid_pagination_fail(self):
-        for mode in ('duplicate','pagination'):
+        for mode in ('duplicate','pagination','missing_total','string_total'):
             native=NativePrices()
             class Source(PartitionedPublicSource):
                 def fetch_price_listing(self,section,bounds,page=1):return native(section,bounds,page)
@@ -166,10 +320,14 @@ class PricePartitionTests(unittest.TestCase):
                     root_calls.append(1)
                     if len(root_calls)==2:
                         if mode=='duplicate':data['offers']=[copy.deepcopy(data['offers'][0])]*2
-                        else:data['pagination']['total_page_count']=0
+                        elif mode=='pagination':data['pagination']['total_page_count']=0
+                        elif mode=='missing_total':data['pagination'].pop('total_offers_count')
+                        else:data['pagination']['total_offers_count']='6'
             native.mutate=mutate
-            with self.subTest(mode=mode),self.assertRaises(SourceFormatError):
-                source.verify_inventory(initial['identities'],initial['parameters'],[],6)
+            with self.subTest(mode=mode):
+                with self.assertRaises(SourceFormatError) as caught:
+                    source.verify_inventory(initial['identities'],initial['parameters'],[],6)
+                self.assertNotIsInstance(caught.exception,InventoryDriftError)
 
     def test_empty_partition_is_proven_without_invented_rows(self):
         result=price_manifest(NativePrices(prices=()),'all')

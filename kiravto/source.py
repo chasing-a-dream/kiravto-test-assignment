@@ -15,6 +15,12 @@ class SourceTransportError(SourceFormatError):
     """A bounded ordinary transport retry failed; never a protection/schema error."""
     pass
 
+class InventoryDriftError(SourceFormatError):
+    """Validated inventory responses disagree; never an HTTP/schema refusal."""
+    def __init__(self, message, **context):
+        self.context = context
+        super().__init__(message + ('; ' + json.dumps(context, ensure_ascii=False, sort_keys=True) if context else ''))
+
 class JsonLD(HTMLParser):
     def __init__(self):
         super().__init__()

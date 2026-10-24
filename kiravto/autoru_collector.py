@@ -14,7 +14,7 @@ from urllib.parse import urljoin,urlsplit
 from urllib.request import Request,build_opener,HTTPCookieProcessor,HTTPRedirectHandler
 from kiravto.autoru import BROWSER_HEADERS,COLORS,application_state,listing_data,normalize,signature
 from kiravto.domain import Store
-from kiravto.source import SourceFormatError,SourceTransportError
+from kiravto.source import SourceFormatError,SourceTransportError,InventoryDriftError
 
 BASE='https://auto.ru/diler/cars/all/rolf_yasenevo_moskva/?damage_group=ANY&customs_state_group=DOESNT_MATTER'
 MAX_IMAGE_BYTES=32_000_000
@@ -303,8 +303,12 @@ class PublicSource:
                 url=destination
         raise SourceFormatError('Too many source canonical redirects')
 
-def collect(db_path,max_pages=30,fetcher=None,max_details=None,notify=True):
+def collect(db_path,max_pages=30,fetcher=None,max_details=None,notify=True,max_drift_retries=1):
+    if type(max_drift_retries) is not int or max_drift_retries not in (0,1):
+        raise ValueError('max_drift_retries must be 0 or 1')
     source=fetcher or PublicSource()
+    request_offset=source.requests
+    inventory_drift=False
     Path(db_path).parent.mkdir(parents=True,exist_ok=True)
     store=Store(db_path)
     cache_file=Path(db_path).parent/'ris-cache.json'
@@ -413,6 +417,7 @@ def collect(db_path,max_pages=30,fetcher=None,max_details=None,notify=True):
         phases['details_started_at']=phases['listing_finished_at']
         for raw in listed:
             detail_phase='card'
+            row=None
             try:
                 row=normalize(raw)
                 stamp=signature(raw)
@@ -456,6 +461,9 @@ def collect(db_path,max_pages=30,fetcher=None,max_details=None,notify=True):
                 if len(detail_transport_failures)>=3:
                     raise SourceTransportError('Detail transport failure limit reached (3)') from None
                 continue
+            except SourceFormatError as exc:
+                identity=row['id'] if row else raw.get('saleId',raw.get('idHash','unknown'))
+                raise SourceFormatError(detail_phase+' '+str(identity)+': '+str(exc)) from None
         phases['details_finished_at']=datetime.now(timezone.utc).isoformat()
         phases['verification_started_at']=phases['details_finished_at']
         if listing_complete and hasattr(source,'verify_inventory'):
@@ -466,6 +474,7 @@ def collect(db_path,max_pages=30,fetcher=None,max_details=None,notify=True):
             counts=source.category_counts()
             category_verified=(counts.get('newOffersCount')==sections['new'] and counts.get('usedOffersCount')==sections['used'] and sum(counts.values())==len(seen)==expected)
     except SourceFormatError as exc:
+        inventory_drift=isinstance(exc,InventoryDriftError)
         errors.append(str(exc))
     except BaseException:
         store.close()
@@ -500,7 +509,7 @@ def collect(db_path,max_pages=30,fetcher=None,max_details=None,notify=True):
         complete=inventory_complete and details_complete and photos_verified and not errors and not (missing-confirmed_missing)
         finished=datetime.now(timezone.utc).isoformat()
         run=store.ingest(list(records.values()),complete=complete,expected_count=expected,confirmed_missing=confirmed_missing,missing_evidence={row['id']:row for row in confirmations if row['id'] in confirmed_missing},now=finished)
-        result={**run,'adapter':'autoru_ris_api','requests':source.requests,'details_fetched':details,'photos_fetched':photos.fetched if photos else 0,'seen_ids':len(seen),'duration_seconds':round(time.monotonic()-started,2),'errors':errors,'limitations':limitations,'filters_verified':filters_verified,'category_counts':counts,'category_counts_verified':category_verified,'inventory_complete':inventory_complete,'details_complete':details_complete,'sections_seen':sections,'pages':page_counts}
+        result={**run,'adapter':'autoru_ris_api','requests':source.requests-request_offset,'details_fetched':details,'photos_fetched':photos.fetched if photos else 0,'seen_ids':len(seen),'duration_seconds':round(time.monotonic()-started,2),'errors':errors,'limitations':limitations,'filters_verified':filters_verified,'category_counts':counts,'category_counts_verified':category_verified,'inventory_complete':inventory_complete,'details_complete':details_complete,'sections_seen':sections,'pages':page_counts,'inventory_drift':inventory_drift}
         result['missing_confirmations']=confirmations
         result['category_proof']=category_proof
         result['started_at']=observed
@@ -519,5 +528,18 @@ def collect(db_path,max_pages=30,fetcher=None,max_details=None,notify=True):
         record(db_path,result,notify=notify)
         save_cache(cache_file,cache)
         Path(db_path).with_suffix('.last-run.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
-        return result
     finally: store.close()
+    if inventory_drift and len(errors)==1 and max_drift_retries and hasattr(source,'inventory_manifest'):
+        # Keep the failed attempt as immutable history. Restart enumeration with
+        # empty sets; only validated card/photo cache is reused, never old IDs.
+        retry_started=time.monotonic()
+        time.sleep(max(3,getattr(source,'pause',3)))
+        retried=collect(db_path,max_pages,source,max_details,notify,max_drift_retries=0)
+        keys=('id','complete','count','requests','duration_seconds','errors')
+        retried['collection_attempts']=[{key:row[key] for key in keys} for row in (result,retried)]
+        retried['collection_total_requests']=result['requests']+retried['requests']
+        retried['collection_total_seconds']=round(result['duration_seconds']+time.monotonic()-retry_started,2)
+        record(db_path,retried,notify=False)
+        Path(db_path).with_suffix('.last-run.json').write_text(json.dumps(retried,ensure_ascii=False,indent=2),encoding='utf-8')
+        return retried
+    return result

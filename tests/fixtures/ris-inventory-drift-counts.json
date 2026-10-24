@@ -1,0 +1,79 @@
+{
+  "source": "Anonymous Auto.ru desktop-search listing responses; no cookies or headers",
+  "observed_at": "2026-10-25 00:16:45–00:16:54 MSK",
+  "scope": "Real counter excerpts only; regression offer rows are generated from a separate saved card fixture",
+  "responses": [
+    {
+      "checked_at": "2026-10-24T21:16:45.180595+00:00",
+      "bounds": {},
+      "pagination": {
+        "total_page_count": 8,
+        "total_offers_count": 270,
+        "page": 1,
+        "page_size": 37,
+        "from": 1,
+        "to": 37,
+        "current": 1
+      },
+      "returned_sections": {
+        "new": 0,
+        "used": 37
+      }
+    },
+    {
+      "checked_at": "2026-10-24T21:16:48.199879+00:00",
+      "bounds": {
+        "price_to": 5000000
+      },
+      "pagination": {
+        "total_page_count": 6,
+        "total_offers_count": 199,
+        "page": 1,
+        "page_size": 37,
+        "from": 1,
+        "to": 37,
+        "current": 1
+      },
+      "returned_sections": {
+        "new": 0,
+        "used": 37
+      }
+    },
+    {
+      "checked_at": "2026-10-24T21:16:51.032629+00:00",
+      "bounds": {
+        "price_from": 5000001
+      },
+      "pagination": {
+        "total_page_count": 3,
+        "total_offers_count": 85,
+        "page": 1,
+        "page_size": 37,
+        "from": 1,
+        "to": 37,
+        "current": 1
+      },
+      "returned_sections": {
+        "new": 1,
+        "used": 36
+      }
+    },
+    {
+      "checked_at": "2026-10-24T21:16:54.271752+00:00",
+      "bounds": {},
+      "pagination": {
+        "total_page_count": 8,
+        "total_offers_count": 284,
+        "page": 1,
+        "page_size": 37,
+        "from": 1,
+        "to": 37,
+        "current": 1
+      },
+      "returned_sections": {
+        "new": 1,
+        "used": 36
+      }
+    }
+  ]
+}
