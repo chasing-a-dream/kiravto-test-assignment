@@ -1,0 +1,130 @@
+{
+  "checked_at_utc": "2026-10-24 15:47:53 UTC",
+  "note": "Датированный срез. count — обработано за прогон; неполный прогон не подтверждает снятие. Исторический полный контроль №21 сохранён отдельно.",
+  "runs": [
+    {
+      "id": 22,
+      "started_at": "2026-10-24T08:50:44.289861+00:00",
+      "finished_at": "2026-10-24T09:10:31.816288+00:00",
+      "count": 417,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 452,
+      "duration_seconds": 1187.8,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 23,
+      "started_at": "2026-10-24T09:50:44.036048+00:00",
+      "finished_at": "2026-10-24T10:17:42.427616+00:00",
+      "count": 417,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 596,
+      "duration_seconds": 1618.73,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 24,
+      "started_at": "2026-10-24T10:50:43.779504+00:00",
+      "finished_at": "2026-10-24T11:17:23.888727+00:00",
+      "count": 417,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 590,
+      "duration_seconds": 1600.44,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 25,
+      "started_at": "2026-10-24T11:50:43.553435+00:00",
+      "finished_at": "2026-10-24T12:09:13.436698+00:00",
+      "count": 354,
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": false,
+      "requests": 411,
+      "duration_seconds": 1110.16,
+      "errors": [
+        "Source API returned invalid JSON; no retry"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "category_coverage_not_verified"
+      ]
+    },
+    {
+      "id": 26,
+      "started_at": "2026-10-24T12:50:43.284475+00:00",
+      "finished_at": "2026-10-24T13:08:02.171330+00:00",
+      "count": 416,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 402,
+      "duration_seconds": 1039.2,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 27,
+      "started_at": "2026-10-24T13:31:01.934226+00:00",
+      "finished_at": "2026-10-24T13:55:59.481886+00:00",
+      "count": 416,
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": true,
+      "requests": 555,
+      "duration_seconds": 1497.85,
+      "errors": [
+        "Partition ALL inventory changed since card collection"
+      ],
+      "limitations": [
+        "category_coverage_not_verified"
+      ]
+    },
+    {
+      "id": 28,
+      "started_at": "2026-10-24T14:31:01.641656+00:00",
+      "finished_at": "2026-10-24T14:32:09.132860+00:00",
+      "count": 0,
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": true,
+      "requests": 23,
+      "duration_seconds": 67.5,
+      "errors": [
+        "Price partition children do not cover parent count"
+      ],
+      "limitations": [
+        "unfiltered_inventory_not_verified",
+        "pagination_or_inventory_shift",
+        "category_coverage_not_verified",
+        "original_photos_not_verified"
+      ]
+    },
+    {
+      "id": 29,
+      "started_at": "2026-10-24T15:31:01.519338+00:00",
+      "finished_at": "2026-10-24T15:45:45.219482+00:00",
+      "count": 263,
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": true,
+      "requests": 358,
+      "duration_seconds": 884.18,
+      "errors": [
+        "Price partition leaf count or unique IDs disagree"
+      ],
+      "limitations": [
+        "category_coverage_not_verified"
+      ]
+    }
+  ]
+}

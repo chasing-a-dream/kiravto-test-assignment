@@ -2,6 +2,7 @@
 import json
 import logging
 import time
+from datetime import datetime, timedelta, timezone
 import httpx
 from kiravto.outbox import Outbox
 from kiravto.source import SourceFormatError
@@ -114,7 +115,14 @@ class Bot:
                 runs=db.runs(limit=3)
                 lines=['Последние прогоны:']
                 for run in runs:
-                    lines.append(f"#{run['id']} · {run['observed_at']} · {run['count']} машин · "+('полный' if run['complete'] else 'неполный'))
+                    try:
+                        finished = datetime.fromisoformat(run['observed_at'].replace('Z', '+00:00'))
+                        if finished.utcoffset() is None:
+                            raise ValueError('Missing timezone')
+                        finished_label = finished.astimezone(timezone(timedelta(hours=3))).strftime('%d.%m.%Y %H:%M МСК')
+                    except (ValueError, TypeError, AttributeError):
+                        finished_label = 'время неизвестно'
+                    lines.append(f"#{run['id']} · "+('полный' if run['complete'] else 'неполный')+f"\nЗавершён: {finished_label}\nОбработано за прогон: {run['count']} машин")
                 if not runs: lines.append('Прогонов пока нет.')
                 reply='\n'.join(lines)
             elif command=='/drops':
