@@ -26,16 +26,34 @@ def vehicle_key(offer):
     vin=full_vin(offer.get('vin'))
     return vin or offer.get('photo_sha256') or offer['id']
 
+def fresh_active_offer(offer,current,max_age=7200):
+    if not offer or offer.get('status')!='active' or not offer.get('source_complete'):
+        return False
+    try:
+        seen=datetime.fromisoformat(offer.get('last_seen','').replace('Z','+00:00'))
+        return seen.tzinfo is not None and 0<=(current-seen).total_seconds()<=max_age
+    except (TypeError,ValueError,AttributeError):
+        return False
+
 def queue_drops(store,box,min_pct=5,now=None):
     current=datetime.fromisoformat(now) if now else datetime.now(timezone.utc)
     day=current.astimezone(ZoneInfo('Europe/Moscow')).date().isoformat()
     added=[]
+    seen=set()
     for event in drops(store,days=1,min_pct=min_pct,now=current.isoformat()):
         offer=store.get(event['offer_id'])
-        if not offer or not offer.get('source_complete'): continue
+        if not fresh_active_offer(offer,current): continue
+        field={'price_changed':'price','discount_price_changed':'discount_price'}.get(event['kind'])
+        if field is None or offer.get(field)!=event['details']['after']: continue
+        key=f'drop:{vehicle_key(offer)}:{day}'
+        if key in seen: continue
+        seen.add(key)
         offer['facts']=cached_facts(box.path,offer.get('description'))
-        text='Цена снижена\n'+caption(offer)+'\n'+money(event['details']['before'])+' → '+money(event['details']['after'])+f" (−{event['pct']}%)"
-        added.append(box.propose(f'drop:{vehicle_key(offer)}:{day}',{'offer_id':offer['id'],'text':text,'photos':offer.get('photos',[])[:10]}))
+        label='Цена' if field=='price' else 'Цена со всеми скидками'
+        pct=f"{event['pct']:g}".replace('.',',')
+        observed=datetime.fromisoformat(event['observed_at']).astimezone(ZoneInfo('Europe/Moscow')).strftime('%d.%m.%Y %H:%M')
+        text='Цена снижена\n'+caption(offer)+'\n'+label+': '+money(event['details']['before'])+' → '+money(event['details']['after'])+f' (−{pct}%).\nИзменение зафиксировано {observed} МСК.'
+        added.append(box.propose(key,{'offer_id':offer['id'],'text':text,'photos':offer.get('photos',[])[:10],'change':{'field':field,**event['details'],'observed_at':event['observed_at']}}))
     return added
 
 def queue_daily(store,box,now=None,local_hour=21):
@@ -45,7 +63,7 @@ def queue_daily(store,box,now=None,local_hour=21):
     day=local.date().isoformat()
     added=[]
     for offer in store.search(limit=10000):
-        if not offer.get('source_complete') or not offer.get('posted_at'): continue
+        if not fresh_active_offer(offer,current) or not offer.get('posted_at'): continue
         posted=datetime.fromisoformat(offer['posted_at']).astimezone(ZoneInfo('Europe/Moscow'))
         if posted.date()!=local.date(): continue
         offer['facts']=cached_facts(box.path,offer.get('description'))

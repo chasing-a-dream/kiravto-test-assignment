@@ -1,0 +1,269 @@
+{
+  "recorded_at": "2026-10-24T13:15:20.827083+00:00",
+  "generated_at": "2026-10-24T13:06:16.896545+00:00",
+  "manual_early_daily_run": true,
+  "normal_daily_hour_msk": 21,
+  "normal_daily_preview_count": 0,
+  "automatic_proposals_enabled": false,
+  "producer_repeat_same_ids": true,
+  "producer_first_ids": [
+    5,
+    6
+  ],
+  "producer_repeat_ids": [
+    5,
+    6
+  ],
+  "source_check_requests": 24,
+  "scenarios": [
+    {
+      "scenario": "daily",
+      "post_id": 5,
+      "state": "sent",
+      "target": "@autostock_demo_test",
+      "channel_message_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "moderation_state": "sent",
+      "moderation_message_id": 11,
+      "offer_id": "1160488104-6c72f059",
+      "text": "Новые за день · 2026-10-24\nToyota RAV4 VI (XA60) · 2026 г. · 0 км\nЦена: 4 800 000 ₽\nhttps://auto.ru/cars/new/group/toyota/rav_4/24957207/24957435/1160488104-6c72f059/",
+      "caption_characters": 166,
+      "photo_count": 10,
+      "photo_checks": [
+        {
+          "index": 0,
+          "bytes": 371624,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 1,
+          "bytes": 1299610,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 2,
+          "bytes": 382076,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 3,
+          "bytes": 1338891,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 4,
+          "bytes": 1471298,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 5,
+          "bytes": 949500,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 6,
+          "bytes": 1161897,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 7,
+          "bytes": 1629385,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 8,
+          "bytes": 2116857,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        },
+        {
+          "index": 9,
+          "bytes": 1481584,
+          "size": [
+            1600,
+            1201
+          ],
+          "decoded": true
+        }
+      ],
+      "card_verified_at": "2026-10-24T12:50:11.805348+00:00",
+      "posted_at": "2026-10-24T04:50:09.524000+00:00",
+      "change": null
+    },
+    {
+      "scenario": "drop",
+      "post_id": 6,
+      "state": "sent",
+      "target": "@autostock_demo_test",
+      "channel_message_ids": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "moderation_state": "sent",
+      "moderation_message_id": 12,
+      "offer_id": "1160076098-ba703ee3",
+      "text": "Цена снижена\nHyundai Sonata V (NF) · 2007 г. · 262 500 км\nЦена: 498 000 ₽\nhttps://auto.ru/cars/used/sale/hyundai/sonata/1160076098-ba703ee3/\nЦена: 529 000 ₽ → 498 000 ₽ (−5,86%).\nИзменение зафиксировано 23.10.2026 19:57 МСК.",
+      "caption_characters": 224,
+      "photo_count": 10,
+      "photo_checks": [
+        {
+          "index": 0,
+          "bytes": 1693394,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        },
+        {
+          "index": 1,
+          "bytes": 1517458,
+          "size": [
+            1541,
+            1278
+          ],
+          "decoded": true
+        },
+        {
+          "index": 2,
+          "bytes": 1660855,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        },
+        {
+          "index": 3,
+          "bytes": 1502064,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        },
+        {
+          "index": 4,
+          "bytes": 1660415,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        },
+        {
+          "index": 5,
+          "bytes": 1350623,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        },
+        {
+          "index": 6,
+          "bytes": 1609106,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        },
+        {
+          "index": 7,
+          "bytes": 1607984,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        },
+        {
+          "index": 8,
+          "bytes": 1674967,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        },
+        {
+          "index": 9,
+          "bytes": 1716015,
+          "size": [
+            1728,
+            1296
+          ],
+          "decoded": true
+        }
+      ],
+      "card_verified_at": "2026-10-24T12:50:39.270501+00:00",
+      "posted_at": "2026-10-16T14:35:50+00:00",
+      "change": {
+        "field": "price",
+        "after": 498000,
+        "before": 529000,
+        "observed_at": "2026-10-23T16:57:22.994707+00:00"
+      }
+    }
+  ],
+  "limitations": [
+    "Controlled early invocation of actual generators, not an observed automatic 21:00 scheduler run.",
+    "Individual live card checks do not establish whole-inventory completeness.",
+    "Price freshness is checked at proposal creation, not again before a later moderator click."
+  ],
+  "all_published": true
+}
