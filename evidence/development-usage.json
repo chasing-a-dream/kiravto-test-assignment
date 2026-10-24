@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "snapshot_at": "2026-10-24T12:30:53.321Z",
+  "work_dates_msk": [
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24"
+  ],
+  "method": "Sum the last cumulative total_token_usage once for each of seven distinct selected local sessions. Repeated token_count events are not summed.",
+  "coverage": "Main session, four explicitly spawned agents, two CLI hook-check sessions. Automatic approval/guardian chains excluded. This is not a provider invoice or an exhaustive account total.",
+  "active_human_hours": null,
+  "development_cost_usd": null,
+  "totals": {
+    "input_tokens": 272570150,
+    "cached_input_tokens": 268633216,
+    "output_tokens": 777065,
+    "reasoning_output_tokens": 372863,
+    "total_tokens": 273347215,
+    "uncached_input_tokens": 3936934,
+    "cached_input_percent": 98.5556,
+    "session_count": 7
+  },
+  "sessions": [
+    {
+      "role": "Основной агент",
+      "usage_observed_at": "2026-10-24T12:30:53.321Z",
+      "input_tokens": 246523208,
+      "cached_input_tokens": 243943040,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 722017,
+      "reasoning_output_tokens": 360881,
+      "total_tokens": 247245225
+    },
+    {
+      "role": "Сверщик кода",
+      "usage_observed_at": "2026-10-23T14:06:04.720Z",
+      "input_tokens": 9653089,
+      "cached_input_tokens": 8939776,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 32465,
+      "reasoning_output_tokens": 8401,
+      "total_tokens": 9685554
+    },
+    {
+      "role": "Исследование источника",
+      "usage_observed_at": "2026-10-23T12:40:02.075Z",
+      "input_tokens": 8230240,
+      "cached_input_tokens": 7822080,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 12005,
+      "reasoning_output_tokens": 459,
+      "total_tokens": 8242245
+    },
+    {
+      "role": "CLI-проверка 1",
+      "usage_observed_at": "2026-10-22T18:56:23.064Z",
+      "input_tokens": 17888,
+      "cached_input_tokens": 13184,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 177,
+      "reasoning_output_tokens": 140,
+      "total_tokens": 18065
+    },
+    {
+      "role": "CLI-проверка 2",
+      "usage_observed_at": "2026-10-22T19:28:36.072Z",
+      "input_tokens": 54303,
+      "cached_input_tokens": 49024,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 211,
+      "reasoning_output_tokens": 37,
+      "total_tokens": 54514
+    },
+    {
+      "role": "Сверщик LLM",
+      "usage_observed_at": "2026-10-23T18:52:10.939Z",
+      "input_tokens": 2371197,
+      "cached_input_tokens": 2163968,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3365,
+      "reasoning_output_tokens": 608,
+      "total_tokens": 2374562
+    },
+    {
+      "role": "Сверщик пакета сдачи",
+      "usage_observed_at": "2026-10-24T09:52:04.966Z",
+      "input_tokens": 5720225,
+      "cached_input_tokens": 5702144,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 6825,
+      "reasoning_output_tokens": 2337,
+      "total_tokens": 5727050
+    }
+  ],
+  "successful_openrouter_probe": {
+    "input_tokens": 151,
+    "output_tokens": 118,
+    "reported_cost_usd": "0",
+    "input_is_synthetic": true,
+    "network_calls": 1,
+    "repeat_from_cache": true
+  },
+  "unknowns": [
+    "Development subscription cost allocation",
+    "Active human hours",
+    "Exhaustive provider billing",
+    "Some earlier failed OpenRouter costs/reservations"
+  ]
+}
