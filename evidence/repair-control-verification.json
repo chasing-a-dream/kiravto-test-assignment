@@ -1,0 +1,76 @@
+{
+  "exported_at": "2026-10-24T22:10:39.044925+00:00",
+  "runs": [
+    {
+      "id": 37,
+      "started_at": "2026-10-24T21:40:41.071661+00:00",
+      "finished_at": "2026-10-24T22:10:09.932226+00:00",
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "count": 427,
+      "seen_ids": 427,
+      "expected_count": 427,
+      "coverage": 1.0264423076923077,
+      "requests": 633,
+      "details_fetched": 425,
+      "photos_fetched": 52,
+      "duration_seconds": 1769.28,
+      "errors": [],
+      "limitations": [],
+      "category_counts": {
+        "newOffersCount": 171,
+        "usedOffersCount": 256
+      },
+      "sections_seen": {
+        "new": 171,
+        "used": 256
+      },
+      "inventory_drift": false,
+      "counter_rechecks": [
+        {
+          "bounds": {},
+          "before": 426,
+          "after": 427,
+          "rechecked_at": "2026-10-24T21:43:35.879533+00:00"
+        }
+      ],
+      "category_verification": {
+        "verified": true,
+        "method": "disjoint_discounted_price_partitions",
+        "atomic_snapshot": false,
+        "counts": {
+          "newOffersCount": 171,
+          "usedOffersCount": 256
+        }
+      },
+      "category_verification_pages": 73,
+      "missing_confirmations": {
+        "INACTIVE:confirmed": 22,
+        "REMOVED:confirmed": 1
+      },
+      "events": {
+        "duplicate": 1,
+        "mileage_changed": 1,
+        "photo_evidence_changed": 51,
+        "photos_changed": 51,
+        "removed": 23,
+        "source_updated_at_changed": 420
+      }
+    }
+  ],
+  "stock": {
+    "active": 427,
+    "removed": 30
+  },
+  "health": {
+    "status": "ok",
+    "stale": false,
+    "last_successful_run": "2026-10-24T22:10:09.932226+00:00",
+    "source_contract_complete": true
+  },
+  "removals_on_incomplete_runs": 0,
+  "mode": "test",
+  "production_enabled": false,
+  "note": "No new browser sample of 20 cars; source counts and saved responses are time-specific."
+}
