@@ -1,0 +1,460 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Авто.ру",
+    "url": "https://auto.ru",
+    "sameAs": [
+      "https://www.youtube.com/channel/UCKwjp5A6RMV3vdgJutYJTNA",
+      "https://vk.ru/autoru_news",
+      "https://ok.ru/autorunews"
+    ],
+    "email": "pr@auto.ru"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Zeekr 001 100 kWh I",
+    "brand": "ZEEKR",
+    "color": "оранжевый",
+    "description": "Весь месяц дарим ПОДАРКИ🎁 при покупке авто с пробегом в РОЛЬФ.\n\nРОЛЬФ | Ясенево автомобили с пробегом\n\n✅Данный автомобиль прошел полную комплексную диагностику и юридическую проверку РОЛЬФ Автогарант¹.\n\n🚗Более 5 000 автомобилей с пробегом в наличии\n💳 Выгодные программы РОЛЬФ Финанс (кредитование, страхование)\n♻ 7 дней на обмен или возврат**\n💯 2 года гарантии РОЛЬФ*\n🌟Выгодный обмен Вашего автомобиля на выбранный автомобиль в РОЛЬФ Ясенево\n💰Срочный выкуп Вашего автомобиля\n🚀Профессиональная команда менеджеров отдела продаж \n📃Гарантия безопасности сделки и качества оформления документов\n🚘Выездная оценка Вашего автомобиля\n\n¹ РОЛЬФ Автогарант – это комплексная услуга  проверки автомобиля, в которую входит: проверка лакокрасочного покрытия, проверка автомобиля по открытым информационным базам, проверка технического состояния автомобиля  на подъемнике. Полная информация об особенностях и наполнении услуги содержится в Оферте договора оказания услуг.\n\nЖдем Вас в РОЛЬФ Ясенево: \n📍МКАД, 39-й километр, вл7\nРаботаем ежедневно без выходных с 8:00 до 22:00\n\n\n*Программа гарантии «РОЛЬФ с пробегом» — это официальный, прозрачный и надежный способ приобретения проверенных автомобилей с гарантией различных марок. Все автомобили с положительной историей владения и без финансовых обременений. Гарантия в течение 24 месяцев дает полную защиту от технических неисправностей основных узлов и агрегатов.\n\n**Программа распространяется только на автомобили, приобретённые без заёмных средств. Покупатель вправе отказаться от Автомобиля в течение 7 (Семи) календарных дней с момента передачи Автомобиля Покупателю по Акту приёмки-передачи при соблюдении следующих условий: сохранены товарный вид (в т.ч. комплектация) и потребительские свойства Автомобиля; у Покупателя имеются документы, подтверждающие приобретение Автомобиля у Продавца; пробег Автомобиля (по показаниям одометра) с момента передачи Автомобиля Покупателю по Акту приёмки-передачи составляет не более 300 (Триста) километров; узлы и агрегаты Автомобиля, в т.ч. имеющееся в Автомобиле дополнительное оборудование (при его наличие), не подвергались демонтажу / замене; техническое состояние Автомобиля соответствует его техническому состоянию на момент передачи Автомобиля Продавцом Покупателю. Программа не распространяется на комиссионные автомобили.",
+    "productionDate": "2023",
+    "offers": {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "url": "https://auto.ru/cars/used/sale/zeekr/001/1160428919-a4898fb5/",
+      "price": 5890000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "name": "Zeekr 001 100 kWh I"
+    },
+    "image": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17980859/db06e120d0a24b2fcf4b992488e916c6/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17980859/db06e120d0a24b2fcf4b992488e916c6/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17980859/db06e120d0a24b2fcf4b992488e916c6/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/14855693/ef6f87f9233405e2403271ec68bb315a/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/14855693/ef6f87f9233405e2403271ec68bb315a/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/14855693/ef6f87f9233405e2403271ec68bb315a/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20363536/b7b2b9c8f995337791a3308c5122b2db/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20363536/b7b2b9c8f995337791a3308c5122b2db/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20363536/b7b2b9c8f995337791a3308c5122b2db/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20467659/a4b43a58f507423afcbffdcb19025909/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20467659/a4b43a58f507423afcbffdcb19025909/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20467659/a4b43a58f507423afcbffdcb19025909/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20894132/ecf4369281abdcf8f5b54e019de23801/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20894132/ecf4369281abdcf8f5b54e019de23801/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20894132/ecf4369281abdcf8f5b54e019de23801/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17993102/58d06c5afb8fb7e576667e15c48435f1/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17993102/58d06c5afb8fb7e576667e15c48435f1/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17993102/58d06c5afb8fb7e576667e15c48435f1/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20306952/2e298b4148176ebef4f2491a571f0ea9/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20306952/2e298b4148176ebef4f2491a571f0ea9/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20306952/2e298b4148176ebef4f2491a571f0ea9/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/21083893/686011e7e7dc781e96b1e9fb26938fb9/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/21083893/686011e7e7dc781e96b1e9fb26938fb9/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/21083893/686011e7e7dc781e96b1e9fb26938fb9/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17777984/9479fc69c75de5022fb4a4571cf18a09/320x240",
+        "width": "320",
+        "height": "240",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17777984/9479fc69c75de5022fb4a4571cf18a09/456x342",
+        "width": "456",
+        "height": "342",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17777984/9479fc69c75de5022fb4a4571cf18a09/1200x900",
+        "width": "1200",
+        "height": "900",
+        "description": "Изображение Zeekr 001 100 kWh I ZEEKR 2023",
+        "author": {
+          "@type": "Organization",
+          "name": "РОЛЬФ Ясенево"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ListItem",
+        "name": "Продажа автомобилей",
+        "position": 1,
+        "item": {
+          "@context": "https://schema.org",
+          "@type": "Thing",
+          "@id": "https://auto.ru/",
+          "url": "https://auto.ru/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ListItem",
+        "name": "Б/у",
+        "position": 2,
+        "item": {
+          "@context": "https://schema.org",
+          "@type": "Thing",
+          "@id": "https://auto.ru/cars/used/",
+          "url": "https://auto.ru/cars/used/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ListItem",
+        "name": "Б/у Zeekr",
+        "position": 3,
+        "item": {
+          "@context": "https://schema.org",
+          "@type": "Thing",
+          "@id": "https://auto.ru/cars/zeekr/used/",
+          "url": "https://auto.ru/cars/zeekr/used/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ListItem",
+        "name": "Б/у Zeekr 001",
+        "position": 4,
+        "item": {
+          "@context": "https://schema.org",
+          "@type": "Thing",
+          "@id": "https://auto.ru/cars/zeekr/001/used/",
+          "url": "https://auto.ru/cars/zeekr/001/used/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ListItem",
+        "name": "Б/у Zeekr 001 I",
+        "position": 5,
+        "item": {
+          "@context": "https://schema.org",
+          "@type": "Thing",
+          "@id": "https://auto.ru/cars/zeekr/001/23280062/used/",
+          "url": "https://auto.ru/cars/zeekr/001/23280062/used/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ListItem",
+        "name": "Б/у Zeekr 001 I Лифтбек",
+        "position": 6,
+        "item": {
+          "@context": "https://schema.org",
+          "@type": "Thing",
+          "@id": "https://auto.ru/cars/zeekr/001/23280062/23280119/used/",
+          "url": "https://auto.ru/cars/zeekr/001/23280062/23280119/used/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ListItem",
+        "name": "Б/у Zeekr 001 I Лифтбек 100 kWh Electro AT (400.0 кВт) 4WD",
+        "position": 7,
+        "item": {
+          "@context": "https://schema.org",
+          "@type": "Thing",
+          "@id": "https://auto.ru/cars/zeekr/001/23280062/23280119/23280178/used/",
+          "url": "https://auto.ru/cars/zeekr/001/23280062/23280119/23280178/used/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ListItem",
+        "name": "Б/у Zeekr 001 I Лифтбек 100 kWh Electro AT (400.0 кВт) 4WD Z Sport",
+        "position": 8,
+        "item": {
+          "@context": "https://schema.org",
+          "@type": "Thing",
+          "@id": "https://auto.ru/cars/used/",
+          "url": "https://auto.ru/cars/used/"
+        }
+      }
+    ]
+  }
+]

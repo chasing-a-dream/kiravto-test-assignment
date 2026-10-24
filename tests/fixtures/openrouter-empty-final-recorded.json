@@ -1,0 +1,9 @@
+{
+  "provenance": "Actual OpenRouter response on 2026-10-23 to a synthetic description; reasoning text and request identifiers omitted",
+  "input_kind": "synthetic_no_personal_data",
+  "response": {
+    "model": "nvidia/nemotron-3.5-lightning:free",
+    "choices": [{"index": 0, "finish_reason": "length", "message": {"role": "assistant", "content": null}}],
+    "usage": {"prompt_tokens": 164, "completion_tokens": 500, "cost": 0, "completion_tokens_details": {"reasoning_tokens": 500}}
+  }
+}

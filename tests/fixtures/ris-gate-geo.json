@@ -1,0 +1,9 @@
+{
+  "captured_date": "2026-10-23",
+  "origin": "Anonymous dealer RIS geo and saved public client_59445237d0b10882_1.js",
+  "caller_offset_approx": 608049,
+  "caller": "gateApiConfig:{gids:e.geo.gids,geo_radius:e.geo.radiusAllowed?e.geo.radius:void 0}",
+  "gate_rule": "Add config.gids as geo_id only if neither geo_id nor geo_id[] is in the resource payload",
+  "bootstrap_geo": {"gids": [1], "radiusAllowed": false},
+  "expected_added_payload": {"geo_id": [1]}
+}

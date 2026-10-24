@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "kiravto": {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "api",
+        "python",
+        "-m",
+        "kiravto",
+        "mcp"
+      ]
+    }
+  }
+}

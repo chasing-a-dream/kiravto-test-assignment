@@ -1,0 +1,27 @@
+name: kiravto
+services:
+  api:
+    build: .
+    env_file: .env
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - stock:/app/data
+    restart: unless-stopped
+  collector:
+    build: .
+    env_file: .env
+    command: ["python", "-m", "kiravto", "worker", "--inventory-strategy", "price-partitions"]
+    volumes:
+      - stock:/app/data
+    restart: unless-stopped
+  bot:
+    build: .
+    env_file: .env
+    command: ["python", "-m", "kiravto", "bot"]
+    volumes:
+      - stock:/app/data
+    profiles: ["telegram"]
+    restart: unless-stopped
+volumes:
+  stock:

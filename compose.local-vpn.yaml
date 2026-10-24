@@ -1,0 +1,5 @@
+# Optional for this Windows PC: Auto.ru goes directly; Telegram uses the host VPN.
+services:
+  bot:
+    environment:
+      TELEGRAM_PROXY_URL: http://host.docker.internal:18766

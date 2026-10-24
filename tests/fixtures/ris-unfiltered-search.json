@@ -1,0 +1,9 @@
+{
+  "cars_params": {"body_type_group": ["ANY_BODY"], "seats_group": "ANY_SEATS", "engine_group": ["ANY_ENGINE"]},
+  "currency": "RUR", "has_image": true, "in_stock": "ANY_STOCK",
+  "dealer_id": "20866489", "offer_grouping": false, "with_discount": true,
+  "with_delivery": "BOTH", "dealer_ids": ["20866489"], "state_group": "USED",
+  "seller_group": ["ANY_SELLER"], "damage_group": "ANY",
+  "owners_count_group": "ANY_COUNT", "owning_time_group": "ANY_TIME",
+  "customs_state_group": "DOESNT_MATTER"
+}

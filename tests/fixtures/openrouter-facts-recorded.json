@@ -1,0 +1,38 @@
+{
+  "provenance": "Selected fields from actual OpenRouter response on 2026-10-23T17:09:59.517473+00:00; synthetic input, no credentials or reasoning text",
+  "description": "Один владелец. Пробег 75 000 км. В комплекте зимние шины.",
+  "response": {
+    "model": "nvidia/nemotron-3.5-lightning:free",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "message": {
+          "content": "{\n  \"facts\": [\n    {\n      \"fact\": \"Автомобиль имеет одного владельца.\",\n      \"quote\": \"Один владелец.\"\n    },\n    {\n      \"fact\": \"Пробег автомобиля составляет 75 000 км.\",\n      \"quote\": \"Пробег 75 000 км.\"\n    },\n    {\n      \"fact\": \"К комплекту автомобиля включены зимние шины.\",\n      \"quote\": \"В комплекте зимние шины.\"\n    }\n  ]\n}"
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 151,
+      "completion_tokens": 118,
+      "total_tokens": 269,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+}

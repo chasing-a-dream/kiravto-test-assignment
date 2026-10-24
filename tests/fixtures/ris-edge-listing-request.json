@@ -1,0 +1,15 @@
+{
+  "captured_date": "2026-10-23",
+  "origin": "User copied Request Payload from Microsoft Edge Network, listing page 7; no headers or cookies",
+  "payload": {
+    "category": "cars",
+    "section": "used",
+    "dealer_code": "rolf_yasenevo_moskva",
+    "damage_group": "ANY",
+    "customs_state_group": "DOESNT_MATTER",
+    "page": 7,
+    "with_discount": true,
+    "dealer_id": "20866489",
+    "geo_id": [1]
+  }
+}

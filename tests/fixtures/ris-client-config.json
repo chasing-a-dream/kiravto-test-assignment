@@ -1,0 +1,7 @@
+{
+  "captured_date": "2026-10-23",
+  "origin": "Own anonymous dealer HTML elements app-config and app-config-client; public transport fields only",
+  "app-config": {"version": "1573.3.d7373168", "ajaxPath": "/-/ajax/desktop-search/"},
+  "app-config-client": {"pageRequestId": "fixture-only-replaced-request-id"},
+  "note": "The real correlation ID was not retained; this test ID is synthetic. No cookies, CSRF or fingerprint."
+}

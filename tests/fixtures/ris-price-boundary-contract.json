@@ -1,0 +1,18 @@
+{
+  "captured_date": "2026-10-23",
+  "origin": "Measured summary of own anonymous public listing responses; no headers, cookies or request IDs",
+  "section": "all",
+  "currency": "RUR",
+  "with_discount": true,
+  "boundary": 2168000,
+  "parent_total": 418,
+  "observed_counts": {"lte": 100, "lt": 98, "gte": 320, "gt": 318, "eq": 2},
+  "exact_price_response_excerpt": {
+    "status": "SUCCESS",
+    "original_search_parameters_excerpt": {"price_from": 2168000, "price_to": 2168000, "currency": "RUR", "with_discount": true},
+    "offers_price_excerpt": [
+      {"price_info": {"RUR": 2498000}, "discount_options": {"max_discount": 330000}},
+      {"price_info": {"RUR": 2398000}, "discount_options": {"max_discount": 230000}}
+    ]
+  }
+}

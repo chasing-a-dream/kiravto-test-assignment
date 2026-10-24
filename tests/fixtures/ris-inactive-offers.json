@@ -1,0 +1,30 @@
+{
+  "captured_date": "2026-10-22",
+  "origin": "https://auto.ru/-/ajax/desktop-search/getOfferCard/",
+  "offers": [
+    {
+      "id": "1134233505",
+      "saleId": "1134233505-12197a66",
+      "idHash": "1134233505-12197a66",
+      "status": "INACTIVE"
+    },
+    {
+      "id": "1160008281",
+      "saleId": "1160008281-f37fd04b",
+      "idHash": "1160008281-f37fd04b",
+      "status": "INACTIVE"
+    },
+    {
+      "id": "1160108833",
+      "saleId": "1160108833-855d905f",
+      "idHash": "1160108833-855d905f",
+      "status": "INACTIVE"
+    },
+    {
+      "id": "1160116849",
+      "saleId": "1160116849-ede81103",
+      "idHash": "1160116849-ede81103",
+      "status": "INACTIVE"
+    }
+  ]
+}

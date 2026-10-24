@@ -1,0 +1,11 @@
+{
+  "captured_date": "2026-10-23",
+  "origin": "Own anonymous public listing API, exact discounted price 3990000 RUR; no session data",
+  "parent_total": 38,
+  "observed_groups": [
+    {"requested_color": ["040001"], "echoed_color": ["040001"], "total": 17, "returned_colors": ["040001"]},
+    {"requested_color": ["FAFBFB"], "echoed_color": ["FAFBFB"], "total": 18, "returned_colors": ["FAFBFB"]},
+    {"requested_color": ["97948F", "0000CC"], "echoed_color": ["0000CC", "97948F"], "total": 3, "returned_colors": ["0000CC", "97948F"]}
+  ],
+  "note": "Echo order may differ. Native color palette does not prove absence of unknown colors; every split must preserve parent count."
+}

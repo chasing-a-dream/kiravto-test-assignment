@@ -1,0 +1,6 @@
+[features]
+hooks = true
+
+[mcp_servers.kiravto]
+command = "docker"
+args = ["compose", "exec", "-T", "api", "python", "-m", "kiravto", "mcp"]

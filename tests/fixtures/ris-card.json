@@ -1,0 +1,744 @@
+{
+  "availability": "IN_STOCK",
+  "color_hex": "007F00",
+  "delivery_info": {},
+  "discount_options": {},
+  "documents": {
+    "owners_number": 2,
+    "custom_cleared": true,
+    "year": 1996,
+    "vin": "JN1**************",
+    "warranty": true,
+    "warranty_expire": {
+      "year": 2028,
+      "month": 10,
+      "day": 1
+    },
+    "pts": "DUPLICATE",
+    "vin_resolution": "UNKNOWN",
+    "pts_resolution_ok": false,
+    "owners_resolution": "OK",
+    "legal_resolution": "OK",
+    "accidents_resolution": "ERROR"
+  },
+  "status": "ACTIVE",
+  "source_info": {
+    "source": "auto_ru",
+    "platform": "feed"
+  },
+  "description": "Весь месяц дарим ПОДАРКИ🎁 при покупке авто с пробегом в РОЛЬФ.\n\nРОЛЬФ | Ясенево автомобили с пробегом\n\n✅Данный автомобиль прошел полную комплексную диагностику и юридическую проверку РОЛЬФ Автогарант¹.\n\n🚗Более 5 000 автомобилей с пробегом в наличии\n💳 Выгодные программы РОЛЬФ Финанс (кредитование, страхование)\n♻ 7 дней на обмен или возврат**\n💯 2 года гарантии РОЛЬФ*\n🌟Выгодный обмен Вашего автомобиля на выбранный автомобиль в РОЛЬФ Ясенево\n💰Срочный выкуп Вашего автомобиля\n🚀Профессиональная команда менеджеров отдела продаж \n📃Гарантия безопасности сделки и качества оформления документов\n🚘Выездная оценка Вашего автомобиля\n\n¹ РОЛЬФ Автогарант – это комплексная услуга  проверки автомобиля, в которую входит: проверка лакокрасочного покрытия, проверка автомобиля по открытым информационным базам, проверка технического состояния автомобиля  на подъемнике. Полная информация об особенностях и наполнении услуги содержится в Оферте договора оказания услуг.\n\nЖдем Вас в РОЛЬФ Ясенево: \n📍МКАД, 39-й километр, вл7\nРаботаем ежедневно без выходных с 8:00 до 22:00\n\n\n*Программа гарантии «РОЛЬФ с пробегом» — это официальный, прозрачный и надежный способ приобретения проверенных автомобилей с гарантией различных марок. Все автомобили с положительной историей владения и без финансовых обременений. Гарантия в течение 24 месяцев дает полную защиту от технических неисправностей основных узлов и агрегатов.\n\n**Программа распространяется только на автомобили, приобретённые без заёмных средств. Покупатель вправе отказаться от Автомобиля в течение 7 (Семи) календарных дней с момента передачи Автомобиля Покупателю по Акту приёмки-передачи при соблюдении следующих условий: сохранены товарный вид (в т.ч. комплектация) и потребительские свойства Автомобиля; у Покупателя имеются документы, подтверждающие приобретение Автомобиля у Продавца; пробег Автомобиля (по показаниям одометра) с момента передачи Автомобиля Покупателю по Акту приёмки-передачи составляет не более 300 (Триста) километров; узлы и агрегаты Автомобиля, в т.ч. имеющееся в Автомобиле дополнительное оборудование (при его наличие), не подвергались демонтажу / замене; техническое состояние Автомобиля соответствует его техническому состоянию на момент передачи Автомобиля Продавцом Покупателю. Программа не распространяется на комиссионные автомобили.",
+  "price_info": {
+    "price": 198000,
+    "currency": "RUR",
+    "EUR": 2173,
+    "RUR": 198000,
+    "USD": 2441,
+    "with_nds": false
+  },
+  "additional_info": {
+    "hidden": false,
+    "is_on_moderation": false,
+    "exchange": true,
+    "update_date": "1792682473979",
+    "creation_date": "1792657576907",
+    "hot_info": {
+      "is_hot": false,
+      "start_time": "2026-10-22T12:20:16.907Z",
+      "end_time": "2026-10-22T12:20:16.907Z"
+    },
+    "fresh_date": "1792657576907",
+    "counters_start_date": "1792657576907",
+    "chat_only": false,
+    "dealer_card_promo": "DONT_SHOW",
+    "review_summary": {
+      "avg_rating": 4.400000095367432,
+      "counter": 28
+    },
+    "price_stats": {},
+    "days_in_stock": 1,
+    "days_on_sale": 1,
+    "can_view": false,
+    "app2app_calls_disabled": false,
+    "displayed_creation_date": "1792657576907",
+    "calls_and_messages_only_from_verified": false
+  },
+  "hash": "e5592982",
+  "id": "1160459525",
+  "price_history": [
+    {
+      "EUR": 2172,
+      "RUR": 198000,
+      "USD": 2440,
+      "create_timestamp": 1792671616907
+    }
+  ],
+  "saleId": "1160459525-e5592982",
+  "idHash": "1160459525-e5592982",
+  "section": "used",
+  "state": {
+    "condition": "CONDITION_OK",
+    "mileage": 251466,
+    "image_urls": [
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/1200x900n"
+        },
+        "name": "1"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/21167286/13f0c142416dded6bf39f9e6ac8b1df4/1200x900n"
+        },
+        "name": "2"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/21116822/c94ba738297d001e40e46e074387ff97/1200x900n"
+        },
+        "name": "3"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/19873021/bfdadb3c3a8caa09daa37753f9ae606a/1200x900n"
+        },
+        "name": "4"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/21116822/5247b690bcc9dd5b3f7342193ec80f9c/1200x900n"
+        },
+        "name": "5"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/17683531/d9151ca24b1ebe4597a41df9fdbb75d6/1200x900n"
+        },
+        "name": "6"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/15611445/094b1dba94109b3f4528cb5bbcf67a49/1200x900n"
+        },
+        "name": "7"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/19700919/e10c9babdf964ed8c7250843b9020993/1200x900n"
+        },
+        "name": "8"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/5938585/802f58132002ac04ef288af917b112bb/1200x900n"
+        },
+        "name": "9"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/19816781/db40bef2cfc4ee490d5570070af77275/1200x900n"
+        },
+        "name": "10"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/20341802/23c0289aebd5f0fe9a16444404ad75fb/1200x900n"
+        },
+        "name": "11"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/15416179/177dccc43f45d28935e6dae0adf6b989/1200x900n"
+        },
+        "name": "12"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/20363536/b8c40738f82e7434c8a0763fe8e9ee9e/1200x900n"
+        },
+        "name": "13"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/2155780/88d006818891e010fb5607681255c609/1200x900n"
+        },
+        "name": "14"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/17683531/237a349db07cb65f2afea31509b0dc36/1200x900n"
+        },
+        "name": "15"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/20979348/97349e594a97d5aff04b616170430957/1200x900n"
+        },
+        "name": "16"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/17993102/ed527ff2b67a3a05614bc589dd607958/1200x900n"
+        },
+        "name": "17"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/20961665/034e0f062f81d28ae6298a8709dbac03/1200x900n"
+        },
+        "name": "18"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/19798937/e876274c7d6b0eb8439777345fd27a22/1200x900n"
+        },
+        "name": "19"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/18090779/d284bf7b2102a3ab7023fc1ae1d79f7c/1200x900n"
+        },
+        "name": "20"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/21074985/fd4b31208fecf4ff49b19938856192cb/1200x900n"
+        },
+        "name": "21"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/20392446/634dc782b0bef8ec2f15f6ec16f15a3a/1200x900n"
+        },
+        "name": "22"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/20306952/b885a8cb10128303e84e48bfb18f9166/1200x900n"
+        },
+        "name": "23"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/18989329/7976ca01ccbe01370c91682259620bf1/1200x900n"
+        },
+        "name": "24"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/20102415/89c5164befb0fde15c523e0afbff37cc/1200x900n"
+        },
+        "name": "25"
+      },
+      {
+        "sizes": {
+          "92x69": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/92x69",
+          "small": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/small",
+          "thumb_m": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/thumb_m",
+          "120x90": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/120x90",
+          "320x240": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/320x240",
+          "320x240n": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/320x240n",
+          "456x342": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/456x342",
+          "456x342n": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/456x342n",
+          "584x438": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/584x438",
+          "584x438n": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/584x438n",
+          "832x624": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/832x624",
+          "832x624n": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/832x624n",
+          "1200x900": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/1200x900",
+          "1200x900n": "//avatars.avto.ru/get-autoru-vos/13922065/146ebd2af1b543122cdf981cbf47eed6/1200x900n"
+        },
+        "name": "26"
+      }
+    ],
+    "images_count": 26,
+    "images_more_count": 0
+  },
+  "vehicle_info": {
+    "configuration": {
+      "body_type": "SEDAN",
+      "id": "5140208",
+      "doors_count": 4,
+      "auto_class": "E",
+      "human_name": "Седан",
+      "trunk_volume_min": 0,
+      "trunk_volume_max": 0,
+      "body_type_group": "SEDAN",
+      "length": 0,
+      "width": 0,
+      "height": 0,
+      "seats": [
+        5
+      ],
+      "main_photo": {
+        "name": "configuration-photo",
+        "sizes": {
+          "wizardv3mr": "//avatars.avto.ru/get-verba/1535139/2a0000019a0c3309067aaa23dfb583060cef/wizardv3mr",
+          "cattouch": "//avatars.avto.ru/get-verba/1535139/2a0000019a0c3309067aaa23dfb583060cef/cattouch",
+          "main": "//avatars.avto.ru/get-verba/1535139/2a0000019a0c3309067aaa23dfb583060cef/gallery",
+          "mobile": "//avatars.avto.ru/get-verba/1535139/2a0000019a0c3309067aaa23dfb583060cef/auto_main",
+          "orig": "//avatars.avto.ru/get-verba/1535139/2a0000019a0c3309067aaa23dfb583060cef/orig",
+          "mini-card": "//avatars.avto.ru/get-verba/1535139/2a0000019a0c3309067aaa23dfb583060cef/minicard"
+        },
+        "base_url": "//avatars.avto.ru/get-verba/1535139/2a0000019a0c3309067aaa23dfb583060cef/",
+        "aliases": [
+          "orig",
+          "wizardv3mr",
+          "cattouch"
+        ]
+      },
+      "tags": [
+        "large",
+        "wide-back-seats",
+        "big"
+      ],
+      "landing_photo_main": {},
+      "landing_photo_promo": {},
+      "landing_description": "",
+      "width_mirrors": 0,
+      "turning_circle": 0,
+      "body_code": ""
+    },
+    "equipment": {
+      "front-seats-heat": true,
+      "front-centre-armrest": true,
+      "electro-window-front": true,
+      "airbag-passenger": true,
+      "12v-socket": true,
+      "electro-window-back": true,
+      "airbag-driver": true,
+      "driver-seat-electric": true
+    },
+    "mark_info": {
+      "code": "NISSAN",
+      "name": "Nissan",
+      "ru_name": "Ниссан",
+      "logo": {
+        "name": "mark-logo",
+        "sizes": {
+          "logo": "//avatars.avto.ru/get-verba/3587101/2a00000179b3e3855153a7ad4c6acf51a351/logo",
+          "big-logo": "//avatars.avto.ru/get-verba/3587101/2a00000179b3e3855153a7ad4c6acf51a351/dealer_logo",
+          "black-logo": "//avatars.avto.ru/get-verba/216201/2a00000179b3e3a92be182185a156cc9eac5/logo",
+          "big-black-logo": "//avatars.avto.ru/get-verba/216201/2a00000179b3e3a92be182185a156cc9eac5/dealer_logo"
+        },
+        "base_url": "//avatars.avto.ru/get-verba/3587101/2a00000179b3e3855153a7ad4c6acf51a351/"
+      },
+      "country_id": [
+        137
+      ],
+      "numeric_id": "3176",
+      "transcription": ""
+    },
+    "model_info": {
+      "code": "MAXIMA",
+      "name": "Maxima",
+      "ru_name": "Максима",
+      "nameplate": {},
+      "transcription": "",
+      "audio_transcription": ""
+    },
+    "steering_wheel": "LEFT",
+    "super_gen": {
+      "id": "5140207",
+      "name": "IV (A32)",
+      "ru_name": "4 (A32)",
+      "year_from": 1994,
+      "year_to": 2000,
+      "price_segment": "MEDIUM",
+      "purpose_group": "FAMILY",
+      "no_complect": false
+    },
+    "tech_param": {
+      "gear_type": "FORWARD_CONTROL",
+      "engine_type": "GASOLINE",
+      "transmission": "MECHANICAL",
+      "id": "5140210",
+      "name": "",
+      "nameplate": "",
+      "displacement": 2987,
+      "power": 193,
+      "power_kvt": 142,
+      "human_name": "3.0 MT (193 л.с.)",
+      "acceleration": 8.3,
+      "clearance_min": 140,
+      "fuel_rate": 0,
+      "gear_type_autoru": "",
+      "transmission_autoru": "",
+      "trunk_volume_min": 440,
+      "fuel_rates": [
+        0
+      ],
+      "electric_ranges": [
+        0
+      ],
+      "full_charge_time": 0,
+      "battery_capacities": [
+        0
+      ],
+      "valvetrain": "DOHC",
+      "power_docs": 0
+    },
+    "vendor": "JAPANESE",
+    "tech_param_id": "5140210",
+    "equipmentGroups": [
+      {
+        "name": "Безопасность",
+        "values": [
+          "Подушка безопасности водителя",
+          "Подушка безопасности пассажира"
+        ]
+      },
+      {
+        "name": "Мультимедиа",
+        "values": [
+          "Розетка 12В"
+        ]
+      },
+      {
+        "name": "Комфорт",
+        "values": [
+          "Электростеклоподъемники передние",
+          "Электростеклоподъемники задние"
+        ]
+      },
+      {
+        "name": "Салон",
+        "values": [
+          "Электрорегулировка сиденья водителя",
+          "Подогрев передних сидений",
+          "Передний центральный подлокотник"
+        ]
+      }
+    ]
+  },
+  "title": "Nissan Maxima IV (A32)",
+  "url": "https://auto.ru/cars/used/sale/nissan/maxima/1160459525-e5592982/",
+  "salon": {
+    "dealer_id": "20866489",
+    "name": "РОЛЬФ Ясенево",
+    "salon_id": "10113"
+  }
+}

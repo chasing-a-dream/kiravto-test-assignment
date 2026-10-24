@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-23T18:48:43.368061+00:00",
+  "resource": "public getOfferCard",
+  "excerpt": {
+    "saleId": "1160479743-a9851289",
+    "idHash": "1160479743-a9851289",
+    "id": "1160479743",
+    "status": "REMOVED",
+    "section": "new",
+    "price_info": {},
+    "availability": "IN_STOCK"
+  },
+  "requests": 2
+}

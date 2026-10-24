@@ -1,0 +1,750 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AggregateOffer",
+  "offerCount": 248,
+  "offers": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17980859/db06e120d0a24b2fcf4b992488e916c6/320x240",
+        "name": "Zeekr 001 100 kWh I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/zeekr/001/1160428919-a4898fb5/",
+      "price": 5890000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20761562/1633b07523b7a2315d1e2cc527bfdabc/320x240",
+        "name": "Nissan Maxima IV (A32)",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/nissan/maxima/1160459525-e5592982/",
+      "price": 198000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17981265/b3b4126b4b4397d484084213b02f0848/320x240",
+        "name": "Hongqi HS5 I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/hongqi/hs5/1160027054-72d39620/",
+      "price": 2498000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/18790574/a6208cad08ca3ef62e9ef17662dae637/320x240",
+        "name": "Mercedes-Benz C-Класс AMG 43 AMG IV (W205) Рестайлинг",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/mercedes/c_klasse_amg/1160459516-a24a9669/",
+      "price": 4990000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/21020305/52c8bff99d603a1babcaf514fff017f9/320x240",
+        "name": "Cadillac STS I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/cadillac/sts/1160459519-abe8b5e1/",
+      "price": 698000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20200701/2e15ca47b28ed35362fd46ccbfc9808f/320x240",
+        "name": "Nissan Qashqai II",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/nissan/qashqai/1160332188-b9713de2/",
+      "price": 1449000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20035467/90f9686323979b6b65ae026512eabe3b/320x240",
+        "name": "Tenet T4",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/tenet/t4/1134286378-e9109a74/",
+      "price": 1649000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/19816781/2be51a55e7c0d5c18d8c2b1b3db14f01/320x240",
+        "name": "Toyota Fortuner II Рестайлинг",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/toyota/fortuner/1160332189-f62b814b/",
+      "price": 4449000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://photo.auto.ru/photo/get-autoru-vos/20223974/WWy3vj9w5RTP2OqM3Q8-_YAvBdYyskbugPx8Gbs8zieLNEM8YaikcX7ZD-AlhDM8dt4HFxi3YViuKZgy6rKGsCbpGuLXsAVt4DFrBH0Alwu7QdIbVXbqHgD_0wZySm7uB8wnK5kUjXUpxch3cwT6fLm7CFUwrkyK8L4iMFRTEb8rUGs/320x240",
+        "name": "Li Auto (Lixiang) L7 I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/lixiang/l7/1133982110-f98ee282/",
+      "price": 5749000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17915300/7abb77bac10441b994c7aaf4ce014829/320x240",
+        "name": "Mazda CX-5 II",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/mazda/cx_5/1160058037-6ad916b2/",
+      "price": 2649000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20657148/c16e528c94dfd8e5e8ddd4f2757d46a2/320x240",
+        "name": "Audi A8 55 TFSI IV (D5) Рестайлинг",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/audi/a8/1134186778-4bf8fa5e/",
+      "price": 6998000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://photo.auto.ru/photo/get-autoru-vos/20016218/RDdEQ-tQ09D4jt0KEsH7k0pYUX6rRuOGrKX2U-aFwbGmaRi01PEFsTcR3ltVjhU6BgJmTOEmQAlsMiWpT0Vgcwzdmz3zBceLCGeEy4JbXxllgIXL4BZVsW8se3mtdzRpxSXuWfyWhsZfDxbOuU5GyUCANOB6UtJUd94Caian75mnfQA/320x240",
+        "name": "Changan UNI-S I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/changan/uni_s/1160197701-3153c1b4/",
+      "price": 2149000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://photo.auto.ru/photo/get-autoru-vos/20172247/diZ71HrkT4cJ_ec-6aZjOLG1tcP_xsvXIEaycppjZE12YFZwim6awEXRB8kFchF6twAad4kB8I925u8h7ell50CRfBu24pQG_pWgoym59PKJUybkjyct3mIQBz8W0IkYwmXkM5uAbgyhSaTKiTpBIAzawJfVppbqgeuH4TjXo-xtA4M/320x240",
+        "name": "Toyota Land Cruiser 100 Series Рестайлинг 2",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/toyota/land_cruiser/1133917104-86cb6f35/",
+      "price": 1699000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/21151957/5a828f771ded7239ddbd4a8650f5b8d7/320x240",
+        "name": "Toyota Highlander III (XU50) Рестайлинг",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/toyota/highlander/1160414999-4b1c3575/",
+      "price": 3998000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/19793268/9c50dbf106a51fe6a84bf1355d033371/320x240",
+        "name": "BMW 2 серии Gran Coupe 218i F44",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/bmw/2er/1134098293-d758ce56/",
+      "price": 2298000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/19849727/5aeaebde42e2962a9900e3b2d1dce1c2/320x240",
+        "name": "Audi Q3 Sportback 40 TFSI II (F3)",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/audi/q3_sportback/1160108833-855d905f/",
+      "price": 3198000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20289822/4f4503a71a5224c63a38714f6ac4c7ac/320x240",
+        "name": "Nissan X-Trail III",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/nissan/x_trail/1134199794-443cb4db/",
+      "price": 1198000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/21092119/14d9ad7878d880c6f2043073071d6532/320x240",
+        "name": "Kia Sportage IV",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/kia/sportage/1160459522-fcd70834/",
+      "price": 1998000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17981265/c574f6f12d953ff55b5d1ddfe6c9d59a/320x240",
+        "name": "Mercedes-Benz GL-Класс AMG 63 AMG",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/mercedes/gl_klasse_amg/1133708927-b5df84f9/",
+      "price": 3398000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/17831387/f7bfcc3bee5f0bada7d4f4d1b6c4760a/320x240",
+        "name": "Zeekr 001 100 kWh I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/zeekr/001/1134106675-cd9e80c4/",
+      "price": 4549000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20785675/788bd9dd6189dabf8826bb53cced570d/320x240",
+        "name": "Audi A4 V (B9)",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/audi/a4/1160459520-f8adc280/",
+      "price": 2898000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20172247/7a9374661ef75f6f9b06265e9b4d8e7d/320x240",
+        "name": "Avatr 11 116 kWh I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/avatr/11/1134267823-a153d134/",
+      "price": 5149000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://photo.auto.ru/photo/get-autoru-vos/20543926/9VwzMBt-gbQ0QFJcAE3ccmhIXw3iypY0vvGCVvvFh3V4hwJ2uN3LMg4nVbGoARwAkpn2CCxSGlR9KyD1gO9WIdKAgG5s2AxKv1XLetfanc2o9ehI_z7zxcQ47VySZME1ZKoeXChBDxuKru5LXged_f8bPPc3oF_96HSfxZUWvsej_pA/320x240",
+        "name": "Land Rover Range Rover IV Рестайлинг",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/land_rover/range_rover/1133596311-8d414c97/",
+      "price": 5598000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://photo.auto.ru/photo/get-autoru-vos/21151957/RIvZJE5TyNC1NCEfhh4eexl-5cYIdT4nsqvAPfiN_-LUQuFkkRzaZHpdZx-cqwATNw9YAWnoyOi0eFs3_BGJhjOyJsT6IVmQ-xOiew4SfLSfEe3xIe2EWfzjDymTYsuLuUYufK8OwLTAuDioKaBNX6K7HPNy0jemjXtOEXJA5YIZO3w/320x240",
+        "name": "Toyota Land Cruiser Prado 150 Series Рестайлинг 1",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/toyota/land_cruiser_prado/1160423909-bd95f2cd/",
+      "price": 3698000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/18004164/dc34b75871891a68f09b7d409f139106/320x240",
+        "name": "Nordcross 001",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/nordcross/001/1134229354-c4ebb78f/",
+      "price": 5650000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20507677/7beb036b9a3d6f29eddaeb9cd287ee75/320x240",
+        "name": "Geely Galaxy M9 210",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/geely/galaxy_m9/1160132090-93910712/",
+      "price": 6149000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20845579/37122a13abab14ab35c9d791d68d88d3/320x240",
+        "name": "Citroen C-Crosser",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/citroen/c_crosser/1160076975-3bd450a8/",
+      "price": 879000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://photo.auto.ru/photo/get-autoru-vos/20306952/UvNAFInpeWHnpGKlicGQXz3fRlajmaypjXcEhI_QelxhjrUqyiwRctXPUvTPurXrC8mN_-kzYaH9zXzhPAT_7-Yb2TF_JqHLVTMYqdNhWQKTEFPePX1Id1YoUshc1hHgWK7m7iXZcxnEJr94_QbIoHWVHy7C0Cz5HItnuxhvVQIJQjg/320x240",
+        "name": "GAC GS8 I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/gac/gs8/1134233505-12197a66/",
+      "price": 2198000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/1909732/27a5105bce410a9e0a71fe94f9cba5b2/320x240",
+        "name": "Mazda CX-5 II",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/mazda/cx_5/1134223722-fa19ff0b/",
+      "price": 1849000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20770109/2fb19277227c460fd760d60e54e3b5c3/320x240",
+        "name": "Volkswagen Passat CC I Рестайлинг",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/volkswagen/passat_cc/1160459517-2c4d82f4/",
+      "price": 1498000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/2181439/e58ade20ce52f6853e52b5dde52c858a/320x240",
+        "name": "Porsche 911 Turbo S VIII (992)",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/porsche/911/1160379218-b994e1db/",
+      "price": 23175000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/21074985/5bdeb60f42937b770ae45bc7385285ab/320x240",
+        "name": "Audi A8 III (D4)",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/audi/a8/1160371438-195b5d08/",
+      "price": 1849000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/16995928/9de77b135fda91e39eec83ae7eb3cfdb/320x240",
+        "name": "Mercedes-Benz GLB 200 I (X247)",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/mercedes/glb_klasse/1160093294-4c39fe9c/",
+      "price": 2749000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20392446/d501870b79bcb0b639e64c1ee1508eab/320x240",
+        "name": "Lexus RX 300 IV Рестайлинг",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/lexus/rx/1133945758-a6125ffc/",
+      "price": 4598000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/18068962/d8ec221acc1fff86b5a2e4e6f4702bcc/320x240",
+        "name": "BMW 6 серии Gran Turismo 630d xDrive IV (G32)",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/bmw/6er/1160058045-e693b1d3/",
+      "price": 3298000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20864073/989e6699fe063b9b99298fd673dfd474/320x240",
+        "name": "BMW Z4 20i III (G29)",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/bmw/z4/1134225052-ec3e6da8/",
+      "price": 4998000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "image": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://avatars.avto.ru/get-autoru-vos/20543926/431dbec84b323d6ee42e0c4bcd377cd7/320x240",
+        "name": "Chery Tiggo 7 Pro Max I",
+        "creator": {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "РОЛЬФ Ясенево"
+        }
+      },
+      "url": "https://auto.ru/cars/used/sale/chery/tiggo_7_pro_max/1134285999-98c94305/",
+      "price": 1749000,
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "RUR",
+      "priceValidUntil": "2026-10-29"
+    }
+  ],
+  "priceCurrency": "RUR",
+  "lowPrice": 198000,
+  "highPrice": 33498000
+}

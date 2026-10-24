@@ -1,0 +1,447 @@
+{
+  "exported_at": "2026-10-24T08:40:02.785509+00:00",
+  "stock": {
+    "active": 417,
+    "removed": 5,
+    "total": 422
+  },
+  "runs": [
+    {
+      "id": 9,
+      "started_at": "2026-10-23T12:43:41.933492+00:00",
+      "finished_at": "2026-10-23T13:11:52.636352+00:00",
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "count": 418,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {
+        "newOffersCount": 173,
+        "usedOffersCount": 245
+      },
+      "requests": 615,
+      "details_fetched": 417,
+      "photos_fetched": 57,
+      "duration_seconds": 1691.0,
+      "errors": [],
+      "limitations": [],
+      "detail_transport_failures": null,
+      "missing_confirmations": [],
+      "cache_reused": 1,
+      "events": {
+        "photo_evidence_changed": 57,
+        "photos_changed": 57,
+        "source_updated_at_changed": 417
+      }
+    },
+    {
+      "id": 10,
+      "started_at": "2026-10-23T13:12:45.512306+00:00",
+      "finished_at": "2026-10-23T13:31:20.184100+00:00",
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "count": 418,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {
+        "newOffersCount": 173,
+        "usedOffersCount": 245
+      },
+      "requests": 420,
+      "details_fetched": 221,
+      "photos_fetched": 57,
+      "duration_seconds": 1114.89,
+      "errors": [],
+      "limitations": [],
+      "detail_transport_failures": null,
+      "missing_confirmations": [],
+      "cache_reused": 197,
+      "events": {
+        "photo_evidence_changed": 57,
+        "photos_changed": 57,
+        "source_updated_at_changed": 61
+      }
+    },
+    {
+      "id": 11,
+      "started_at": "2026-10-23T13:35:19.691630+00:00",
+      "finished_at": "2026-10-23T13:52:41.279776+00:00",
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "count": 418,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {
+        "newOffersCount": 173,
+        "usedOffersCount": 245
+      },
+      "requests": 393,
+      "details_fetched": 197,
+      "photos_fetched": 57,
+      "duration_seconds": 1041.81,
+      "errors": [],
+      "limitations": [],
+      "detail_transport_failures": null,
+      "missing_confirmations": [],
+      "cache_reused": 221,
+      "events": {
+        "photo_evidence_changed": 57,
+        "photos_changed": 58,
+        "source_updated_at_changed": 183
+      }
+    },
+    {
+      "id": 12,
+      "started_at": "2026-10-23T14:35:19.456228+00:00",
+      "finished_at": "2026-10-23T15:01:36.517190+00:00",
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "count": 418,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {
+        "newOffersCount": 173,
+        "usedOffersCount": 245
+      },
+      "requests": 574,
+      "details_fetched": 375,
+      "photos_fetched": 57,
+      "duration_seconds": 1577.34,
+      "errors": [],
+      "limitations": [],
+      "detail_transport_failures": null,
+      "missing_confirmations": [],
+      "cache_reused": 43,
+      "events": {
+        "photo_evidence_changed": 57,
+        "photos_changed": 58,
+        "source_updated_at_changed": 373
+      }
+    },
+    {
+      "id": 13,
+      "started_at": "2026-10-23T15:35:19.227691+00:00",
+      "finished_at": "2026-10-23T15:51:28.910145+00:00",
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": false,
+      "count": 338,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {},
+      "requests": 362,
+      "details_fetched": 255,
+      "photos_fetched": 44,
+      "duration_seconds": 969.9,
+      "errors": [
+        "Source API returned invalid JSON; no retry"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "category_coverage_not_verified"
+      ],
+      "detail_transport_failures": null,
+      "missing_confirmations": [],
+      "cache_reused": 83,
+      "events": {
+        "discount_price_changed": 18,
+        "photo_evidence_changed": 44,
+        "photos_changed": 44,
+        "posted_at_changed": 8,
+        "price_changed": 24,
+        "raised_at_changed": 8,
+        "source_updated_at_changed": 235
+      }
+    },
+    {
+      "id": 14,
+      "started_at": "2026-10-23T16:35:18.993677+00:00",
+      "finished_at": "2026-10-23T16:57:22.994707+00:00",
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": true,
+      "count": 418,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {},
+      "requests": 499,
+      "details_fetched": 329,
+      "photos_fetched": 57,
+      "duration_seconds": 1325.37,
+      "errors": [
+        "Source API transport unavailable after one retry"
+      ],
+      "limitations": [
+        "category_coverage_not_verified"
+      ],
+      "detail_transport_failures": null,
+      "missing_confirmations": [],
+      "cache_reused": 89,
+      "events": {
+        "description_changed": 1,
+        "discount_conditions_changed": 1,
+        "discount_price_changed": 43,
+        "missing_fields_changed": 1,
+        "photo_evidence_changed": 57,
+        "photo_sha256_changed": 1,
+        "photos_changed": 57,
+        "posted_at_changed": 10,
+        "price_changed": 57,
+        "raised_at_changed": 10,
+        "source_updated_at_changed": 266,
+        "trim_changed": 1,
+        "trim_id_changed": 1,
+        "trim_not_published_changed": 1
+      }
+    },
+    {
+      "id": 15,
+      "started_at": "2026-10-23T17:35:18.073128+00:00",
+      "finished_at": "2026-10-23T17:55:55.726459+00:00",
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": false,
+      "count": 315,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {},
+      "requests": 425,
+      "details_fetched": 307,
+      "photos_fetched": 59,
+      "duration_seconds": 1237.91,
+      "errors": [
+        "Photo 1134286001-5b9d76a7: Source image unavailable"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "category_coverage_not_verified"
+      ],
+      "detail_transport_failures": null,
+      "missing_confirmations": [],
+      "cache_reused": 9,
+      "events": {
+        "missing_fields_changed": 1,
+        "photo_evidence_changed": 59,
+        "photos_changed": 40,
+        "posted_at_changed": 1,
+        "price_changed": 5,
+        "raised_at_changed": 1,
+        "source_updated_at_changed": 279,
+        "trim_changed": 2,
+        "trim_id_changed": 2,
+        "trim_not_published_changed": 1
+      }
+    },
+    {
+      "id": 16,
+      "started_at": "2026-10-23T18:26:25.630662+00:00",
+      "finished_at": "2026-10-23T18:46:59.757391+00:00",
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": false,
+      "count": 356,
+      "seen_ids": 419,
+      "expected_count": 419,
+      "category_counts": {},
+      "requests": 609,
+      "details_fetched": 335,
+      "photos_fetched": 216,
+      "duration_seconds": 1234.44,
+      "errors": [
+        "Rouble price missing or invalid"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "category_coverage_not_verified"
+      ],
+      "detail_transport_failures": [],
+      "missing_confirmations": [],
+      "cache_reused": 22,
+      "events": {
+        "discount_price_changed": 1,
+        "photo_evidence_changed": 216,
+        "photos_changed": 44,
+        "price_changed": 1,
+        "source_updated_at_changed": 283
+      }
+    },
+    {
+      "id": 17,
+      "started_at": "2026-10-23T18:50:07.295341+00:00",
+      "finished_at": "2026-10-23T19:16:07.842304+00:00",
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "count": 418,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {
+        "newOffersCount": 173,
+        "usedOffersCount": 245
+      },
+      "requests": 563,
+      "details_fetched": 352,
+      "photos_fetched": 78,
+      "duration_seconds": 1560.86,
+      "errors": [],
+      "limitations": [],
+      "detail_transport_failures": [],
+      "missing_confirmations": [],
+      "cache_reused": 66,
+      "events": {
+        "missing_fields_changed": 1,
+        "photo_evidence_changed": 78,
+        "photo_sha256_changed": 1,
+        "photos_changed": 57,
+        "source_updated_at_changed": 259,
+        "trim_changed": 2,
+        "trim_id_changed": 2,
+        "trim_not_published_changed": 1
+      }
+    },
+    {
+      "id": 18,
+      "started_at": "2026-10-23T19:16:59.938001+00:00",
+      "finished_at": "2026-10-23T19:24:00.510346+00:00",
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": false,
+      "count": 234,
+      "seen_ids": 418,
+      "expected_count": 418,
+      "category_counts": {},
+      "requests": 168,
+      "details_fetched": 77,
+      "photos_fetched": 30,
+      "duration_seconds": 420.91,
+      "errors": [
+        "Photo 1133413600-4b4101bc: Original image failed decoding or dimensions verification"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "category_coverage_not_verified"
+      ],
+      "detail_transport_failures": [],
+      "missing_confirmations": [],
+      "cache_reused": 158,
+      "events": {
+        "missing_fields_changed": 1,
+        "photo_evidence_changed": 30,
+        "photos_changed": 30,
+        "source_updated_at_changed": 47,
+        "trim_changed": 2,
+        "trim_id_changed": 2,
+        "trim_not_published_changed": 1
+      }
+    },
+    {
+      "id": 19,
+      "started_at": "2026-10-24T07:20:01.035211+00:00",
+      "finished_at": "2026-10-24T07:21:37.202995+00:00",
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": true,
+      "count": 0,
+      "seen_ids": 0,
+      "expected_count": null,
+      "category_counts": {},
+      "requests": 13,
+      "details_fetched": 0,
+      "photos_fetched": 0,
+      "duration_seconds": 96.18,
+      "errors": [
+        "Source API transport unavailable after one retry"
+      ],
+      "limitations": [
+        "unfiltered_inventory_not_verified",
+        "pagination_or_inventory_shift",
+        "category_coverage_not_verified",
+        "original_photos_not_verified"
+      ],
+      "detail_transport_failures": [],
+      "missing_confirmations": [],
+      "cache_reused": 0,
+      "events": {}
+    },
+    {
+      "id": 20,
+      "started_at": "2026-10-24T08:07:12.398349+00:00",
+      "finished_at": "2026-10-24T08:07:13.496488+00:00",
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": true,
+      "count": 0,
+      "seen_ids": 0,
+      "expected_count": null,
+      "category_counts": {},
+      "requests": 1,
+      "details_fetched": 0,
+      "photos_fetched": 0,
+      "duration_seconds": 1.11,
+      "errors": [
+        "Source unavailable; retry at next scheduled run"
+      ],
+      "limitations": [
+        "unfiltered_inventory_not_verified",
+        "pagination_or_inventory_shift",
+        "category_coverage_not_verified",
+        "original_photos_not_verified"
+      ],
+      "detail_transport_failures": [],
+      "missing_confirmations": [],
+      "cache_reused": 0,
+      "events": {}
+    },
+    {
+      "id": 21,
+      "started_at": "2026-10-24T08:11:16.625896+00:00",
+      "finished_at": "2026-10-24T08:39:38.150178+00:00",
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "count": 417,
+      "seen_ids": 417,
+      "expected_count": 417,
+      "category_counts": {
+        "newOffersCount": 172,
+        "usedOffersCount": 245
+      },
+      "requests": 764,
+      "details_fetched": 416,
+      "photos_fetched": 205,
+      "duration_seconds": 1701.87,
+      "errors": [],
+      "limitations": [],
+      "detail_transport_failures": [],
+      "missing_confirmations": [
+        {
+          "id": "1160330609-4a5f61c3",
+          "confirmed": true,
+          "identity_matches": true,
+          "status": "REMOVED",
+          "checked_at": "2026-10-24T08:39:38.147439+00:00"
+        }
+      ],
+      "cache_reused": 1,
+      "events": {
+        "discount_price_changed": 1,
+        "equipment_changed": 2,
+        "missing_fields_changed": 1,
+        "photo_evidence_changed": 205,
+        "photos_changed": 56,
+        "posted_at_changed": 1,
+        "price_changed": 1,
+        "raised_at_changed": 1,
+        "removed": 1,
+        "source_updated_at_changed": 416,
+        "trim_changed": 1,
+        "trim_id_changed": 1,
+        "trim_not_published_changed": 1
+      }
+    }
+  ]
+}
