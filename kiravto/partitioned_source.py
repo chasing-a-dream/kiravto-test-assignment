@@ -64,6 +64,8 @@ def price_manifest(fetch,section,max_requests=96,max_seconds=360,max_depth=32,ma
                                       section=section,bounds=bounds,before=node['total'],
                                       after=fresh['total'],children=children_total)
         fresh_ids=[row['id'] for _,row,_ in rows]
+        fresh['ids']=fresh_ids
+        fresh['sections']={row['id']:row['condition'] for _,row,_ in rows}
         if (fresh['total'] and not rows) or len(fresh_ids)!=len(set(fresh_ids)):
             raise InventoryDriftError('Price partition recheck has empty or duplicate rows',section=section,bounds=bounds)
         if any(identities.get(row['id'])!=row['condition'] or row['id'] not in subtree_ids for _,row,_ in rows):
@@ -71,6 +73,7 @@ def price_manifest(fetch,section,max_requests=96,max_seconds=360,max_depth=32,ma
         node['original_total']=node['total']
         node['total']=fresh['total']
         node['rechecked_at']=fresh['checked_at']
+        node['subtree_unique_count']=len(subtree_ids)
         return fresh['total']
 
     def request(bounds,depth):

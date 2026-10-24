@@ -100,7 +100,10 @@ class PricePartitionTests(unittest.TestCase):
         self.assertEqual(len(result['identities']),after)
         self.assertEqual(len(result['observations']),after)
         self.assertEqual(result['evidence'][0]['original_total'],before)
-        self.assertTrue(any(n.get('kind')=='partition_count_recheck' for n in result['evidence']))
+        rechecks=[n for n in result['evidence'] if n.get('kind')=='partition_count_recheck']
+        self.assertTrue(rechecks)
+        self.assertTrue(all(set(n['ids'])<=set(result['identities']) for n in rechecks))
+        self.assertEqual(result['evidence'][0]['subtree_unique_count'],after)
 
     def test_recheck_rejects_same_counter_with_unenumerated_replacement(self):
         native=NativePrices();root_reads=[]
