@@ -1,6 +1,6 @@
 import hmac
 from contextlib import contextmanager
-from datetime import datetime,timedelta,timezone
+from datetime import datetime,timezone
 from html import escape
 from fastapi import FastAPI, Depends, Header, HTTPException, Query
 from fastapi.responses import HTMLResponse
@@ -27,17 +27,8 @@ def create_app(settings=None):
 
     @app.get('/health')
     def health():
-        with storage() as store:
-            runs = with_metrics(settings.db,store.runs())
-            success=store.db.execute('SELECT observed_at FROM runs WHERE complete=1 ORDER BY id DESC LIMIT 1').fetchone()
-        last=success['observed_at'] if success else None
-        fresh=False
-        if last:
-            stamp=datetime.fromisoformat(last.replace('Z','+00:00'))
-            if stamp.tzinfo is None: stamp=stamp.replace(tzinfo=timezone.utc)
-            fresh=0<=(datetime.now(timezone.utc)-stamp).total_seconds()<=7200
-        verified=bool(runs and runs[0]['complete'] and not runs[0].get('limitations'))
-        return {'status':'ok' if verified and fresh else 'degraded','last_successful_run':last,'stale':not fresh,'latest_run':runs[0] if runs else None,'source_contract_complete':verified}
+        from kiravto.health import snapshot
+        return snapshot(settings.db)
 
     @app.get('/openapi.json',dependencies=[Depends(auth)],include_in_schema=False)
     def schema(): return app.openapi()

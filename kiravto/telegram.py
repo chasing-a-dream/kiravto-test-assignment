@@ -105,24 +105,48 @@ class Bot:
             return
         text=message.get('text','')
         command=text.split()[0].split('@')[0] if text else ''
-        if command not in ('/status','/drops','/queue','/retry_moderation','/resolve_sent'): return
+        if command not in ('/health','/status','/drops','/queue','/retry_moderation','/resolve_sent'): return
         from kiravto.domain import Store
         from kiravto.queries import drops
         from kiravto.posts import money
         db=Store(box.path)
         try:
-            if command=='/status':
-                runs=db.runs(limit=3)
+            if command=='/health':
+                from kiravto.health import snapshot
+                state=snapshot(box.path)
+                def moment(stamp):
+                    try:
+                        parsed=datetime.fromisoformat(stamp.replace('Z','+00:00'))
+                        if parsed.utcoffset() is None: raise ValueError('Missing timezone')
+                        return parsed.astimezone(timezone(timedelta(hours=3))).strftime('%d.%m.%Y %H:%M:%S МСК')
+                    except (ValueError,TypeError,AttributeError): return 'время неизвестно'
+                lines=['Состояние данных: '+('OK — свежие, последний прогон полный' if state['status']=='ok' else 'DEGRADED — данные требуют внимания'),
+                       'Полный сбор за последние 2 часа: '+('да' if not state['stale'] else 'нет или время неизвестно')]
+                for label,row in (('Последний завершённый',state['latest_run']),('Последний полный',state['last_complete_run'])):
+                    if not row:
+                        lines.append(label+': пока нет.')
+                        continue
+                    lines.append(label+f": #{row['id']} · "+('полный' if row['complete'] else 'неполный')+f" · обработано {row['count']}")
+                    if row.get('finished_at'): lines.append('Завершён: '+moment(row['finished_at']))
+                    lines.append('Наблюдение: '+moment(row['observed_at']))
+                if state['latest_run'] and state['latest_run'].get('limitations'):
+                    lines.append('У последнего прогона есть ограничения полноты; подробности — в отчёте/API.')
+                lines.append('Проверка читает базу; не запускает сбор и не проверяет доступность Авто.ру или LLM.')
+                reply='\n'.join(lines)
+            elif command=='/status':
+                from kiravto.observability import with_metrics
+                runs=with_metrics(box.path,db.runs(limit=3))
                 lines=['Последние прогоны:']
                 for run in runs:
                     try:
-                        finished = datetime.fromisoformat(run['observed_at'].replace('Z', '+00:00'))
+                        finished = datetime.fromisoformat((run.get('finished_at') or run['observed_at']).replace('Z', '+00:00'))
                         if finished.utcoffset() is None:
                             raise ValueError('Missing timezone')
                         finished_label = finished.astimezone(timezone(timedelta(hours=3))).strftime('%d.%m.%Y %H:%M МСК')
                     except (ValueError, TypeError, AttributeError):
                         finished_label = 'время неизвестно'
-                    lines.append(f"#{run['id']} · "+('полный' if run['complete'] else 'неполный')+f"\nЗавершён: {finished_label}\nОбработано за прогон: {run['count']} машин")
+                    label='Завершён' if run.get('finished_at') else 'Наблюдение (завершение не сохранено)'
+                    lines.append(f"#{run['id']} · "+('полный' if run['complete'] else 'неполный')+f"\n{label}: {finished_label}\nОбработано за прогон: {run['count']} машин")
                 if not runs: lines.append('Прогонов пока нет.')
                 reply='\n'.join(lines)
             elif command=='/drops':
