@@ -89,7 +89,10 @@ class ManualFactsTests(unittest.TestCase):
         first=extract_one(self.settings,CAR,key='fake-only',transport=transport)
         second=extract_one(self.settings,CAR,key='fake-only',transport=transport)
         self.assertEqual(first['status'],'failed')
+        self.assertEqual(first['http_status'],503)
+        self.assertIn('HTTP 503',render(first))
         self.assertTrue(second['cached'])
+        self.assertEqual(second['http_status'],503)
         self.assertEqual(len(self.calls),1)
     def test_corrupted_cached_quotes_are_revalidated_before_output(self):
         transport=self.transport()

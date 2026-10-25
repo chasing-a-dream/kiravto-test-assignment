@@ -76,6 +76,14 @@ def extract_one(settings,identity,*,key='',dry_run=False,transport=None):
                   'failed':'Обработка не удалась. Для этого описания автоматический повтор запрещён.',
                   'pending':'Это описание уже обрабатывается или прежняя попытка была прервана; повтор не отправлен.'}
         result['message']=messages.get(extracted['status'],'Результат обработки сохранён.')
+        if extracted['status']=='failed':
+            kind=extracted.get('failure_type')
+            if kind=='http_error' and extracted.get('http_status'):
+                reason='OpenRouter вернул HTTP '+str(extracted['http_status'])+'.'
+            elif kind=='network_error':reason='Не удалось соединиться с OpenRouter.'
+            elif kind=='invalid_response':reason='Ответ модели не прошёл проверку формата.'
+            else:reason='Точная причина прежней ошибки не сохранена.'
+            result['message']=reason+' Для этого описания новый запрос автоматически не отправляется; учёт расходов сохранён.'
     digest=hashlib.sha256(description.encode()).hexdigest()
     with service.db() as db:
         row=db.execute('select input_tokens,output_tokens,charged_usd from llm_jobs where hash=?',(digest,)).fetchone()

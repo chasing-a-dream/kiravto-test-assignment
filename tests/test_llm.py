@@ -3,9 +3,28 @@ import json
 import unittest
 from pathlib import Path
 import httpx
-from kiravto.llm import FactService,cached_facts
+from kiravto.llm import FactService,cached_facts,failure_details
 
 class LlmTests(unittest.TestCase):
+    def test_failure_details_do_not_store_response_text_or_retry(self):
+        with tempfile.TemporaryDirectory(dir='data') as folder:
+            calls=[]
+            def fake(request):
+                calls.append(1)
+                return httpx.Response(403,json={'error':'sensitive-response-marker'})
+            service=FactService(Path(folder)/'llm.db',key='fake-only',model='test:free',transport=httpx.MockTransport(fake))
+            first=service.extract('Один владелец.')
+            second=service.extract('Один владелец.')
+            self.assertEqual(first['http_status'],403)
+            self.assertEqual(second['http_status'],403)
+            self.assertEqual(len(calls),1)
+            with service.db() as db:row=dict(db.execute('select * from llm_jobs').fetchone())
+            self.assertNotIn('sensitive-response-marker',row['error'])
+            self.assertIsNone(row['charged_usd'])
+            self.assertEqual(row['reserved_usd'],'0.01')
+        self.assertEqual(failure_details('Provider response failed; reservation retained'),{})
+        self.assertEqual(failure_details({'failure_type':'untrusted','message':'sensitive-response-marker'}),{})
+
     def test_recorded_live_facts_have_exact_quotes_and_reuse_cache(self):
         fixture=json.loads((Path(__file__).parent/'fixtures'/'openrouter-facts-recorded.json').read_text(encoding='utf-8'))
         with tempfile.TemporaryDirectory(dir='data') as folder:
