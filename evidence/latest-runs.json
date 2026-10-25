@@ -1,87 +1,36 @@
 {
-  "checked_at_utc": "2026-10-24 15:47:53 UTC",
-  "note": "Датированный срез. count — обработано за прогон; неполный прогон не подтверждает снятие. Исторический полный контроль №21 сохранён отдельно.",
+  "checked_at_utc": "2026-10-25T08:23:56.453838+00:00",
+  "note": "Dated completed-run snapshot. count means processed records in each run, not the whole stock.",
   "runs": [
     {
-      "id": 22,
-      "started_at": "2026-10-24T08:50:44.289861+00:00",
-      "finished_at": "2026-10-24T09:10:31.816288+00:00",
-      "count": 417,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 452,
-      "duration_seconds": 1187.8,
-      "errors": [],
-      "limitations": []
-    },
-    {
-      "id": 23,
-      "started_at": "2026-10-24T09:50:44.036048+00:00",
-      "finished_at": "2026-10-24T10:17:42.427616+00:00",
-      "count": 417,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 596,
-      "duration_seconds": 1618.73,
-      "errors": [],
-      "limitations": []
-    },
-    {
-      "id": 24,
-      "started_at": "2026-10-24T10:50:43.779504+00:00",
-      "finished_at": "2026-10-24T11:17:23.888727+00:00",
-      "count": 417,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 590,
-      "duration_seconds": 1600.44,
-      "errors": [],
-      "limitations": []
-    },
-    {
-      "id": 25,
-      "started_at": "2026-10-24T11:50:43.553435+00:00",
-      "finished_at": "2026-10-24T12:09:13.436698+00:00",
-      "count": 354,
+      "id": 32,
+      "started_at": "2026-10-24T18:31:00.677755+00:00",
+      "finished_at": "2026-10-24T18:46:08.116421+00:00",
+      "observed_at": "2026-10-24T18:46:08.116421+00:00",
+      "count": 261,
       "complete": false,
       "inventory_complete": false,
-      "details_complete": false,
-      "requests": 411,
-      "duration_seconds": 1110.16,
+      "details_complete": true,
+      "requests": 485,
+      "duration_seconds": 907.66,
       "errors": [
-        "Source API returned invalid JSON; no retry"
+        "Price partition leaf count or unique IDs disagree"
       ],
       "limitations": [
-        "detail_limit_or_unavailable_cards",
         "category_coverage_not_verified"
       ]
     },
     {
-      "id": 26,
-      "started_at": "2026-10-24T12:50:43.284475+00:00",
-      "finished_at": "2026-10-24T13:08:02.171330+00:00",
-      "count": 416,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 402,
-      "duration_seconds": 1039.2,
-      "errors": [],
-      "limitations": []
-    },
-    {
-      "id": 27,
-      "started_at": "2026-10-24T13:31:01.934226+00:00",
-      "finished_at": "2026-10-24T13:55:59.481886+00:00",
-      "count": 416,
+      "id": 33,
+      "started_at": "2026-10-24T19:31:00.443316+00:00",
+      "finished_at": "2026-10-24T19:45:48.451705+00:00",
+      "observed_at": "2026-10-24T19:45:48.451705+00:00",
+      "count": 260,
       "complete": false,
       "inventory_complete": false,
       "details_complete": true,
-      "requests": 555,
-      "duration_seconds": 1497.85,
+      "requests": 368,
+      "duration_seconds": 888.21,
       "errors": [
         "Partition ALL inventory changed since card collection"
       ],
@@ -90,15 +39,35 @@
       ]
     },
     {
-      "id": 28,
-      "started_at": "2026-10-24T14:31:01.641656+00:00",
-      "finished_at": "2026-10-24T14:32:09.132860+00:00",
+      "id": 34,
+      "started_at": "2026-10-24T20:31:00.221816+00:00",
+      "finished_at": "2026-10-24T20:41:30.860488+00:00",
+      "observed_at": "2026-10-24T20:41:30.860488+00:00",
+      "count": 179,
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": false,
+      "requests": 223,
+      "duration_seconds": 630.79,
+      "errors": [
+        "Rouble price missing or invalid"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "category_coverage_not_verified"
+      ]
+    },
+    {
+      "id": 35,
+      "started_at": "2026-10-24T21:29:44.393897+00:00",
+      "finished_at": "2026-10-24T21:31:33.183947+00:00",
+      "observed_at": "2026-10-24T21:31:33.183947+00:00",
       "count": 0,
       "complete": false,
       "inventory_complete": false,
       "details_complete": true,
-      "requests": 23,
-      "duration_seconds": 67.5,
+      "requests": 37,
+      "duration_seconds": 108.8,
       "errors": [
         "Price partition children do not cover parent count"
       ],
@@ -110,21 +79,179 @@
       ]
     },
     {
-      "id": 29,
-      "started_at": "2026-10-24T15:31:01.519338+00:00",
-      "finished_at": "2026-10-24T15:45:45.219482+00:00",
-      "count": 263,
+      "id": 36,
+      "started_at": "2026-10-24T21:32:42.403383+00:00",
+      "finished_at": "2026-10-24T21:34:58.640725+00:00",
+      "observed_at": "2026-10-24T21:34:58.640725+00:00",
+      "count": 0,
       "complete": false,
       "inventory_complete": false,
       "details_complete": true,
-      "requests": 358,
-      "duration_seconds": 884.18,
+      "requests": 46,
+      "duration_seconds": 136.25,
       "errors": [
-        "Price partition leaf count or unique IDs disagree"
+        "Price partition children do not cover parent count"
       ],
       "limitations": [
-        "category_coverage_not_verified"
+        "unfiltered_inventory_not_verified",
+        "pagination_or_inventory_shift",
+        "category_coverage_not_verified",
+        "original_photos_not_verified"
       ]
+    },
+    {
+      "id": 37,
+      "started_at": "2026-10-24T21:40:41.071661+00:00",
+      "finished_at": "2026-10-24T22:10:09.932226+00:00",
+      "observed_at": "2026-10-24T22:10:09.932226+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 633,
+      "duration_seconds": 1769.28,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 38,
+      "started_at": "2026-10-24T22:10:40.615533+00:00",
+      "finished_at": "2026-10-24T22:27:06.142677+00:00",
+      "observed_at": "2026-10-24T22:27:06.142677+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 374,
+      "duration_seconds": 985.75,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 39,
+      "started_at": "2026-10-24T23:10:40.380942+00:00",
+      "finished_at": "2026-10-24T23:38:33.269915+00:00",
+      "observed_at": "2026-10-24T23:38:33.269915+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 604,
+      "duration_seconds": 1673.23,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 40,
+      "started_at": "2026-10-25T00:10:40.087389+00:00",
+      "finished_at": "2026-10-25T00:23:19.823205+00:00",
+      "observed_at": "2026-10-25T00:23:19.823205+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 299,
+      "duration_seconds": 760.01,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 41,
+      "started_at": "2026-10-25T01:10:38.780234+00:00",
+      "finished_at": "2026-10-25T01:38:33.804716+00:00",
+      "observed_at": "2026-10-25T01:38:33.804716+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 610,
+      "duration_seconds": 1675.36,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 42,
+      "started_at": "2026-10-25T02:10:38.525527+00:00",
+      "finished_at": "2026-10-25T02:38:51.998476+00:00",
+      "observed_at": "2026-10-25T02:38:51.998476+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 610,
+      "duration_seconds": 1693.81,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 43,
+      "started_at": "2026-10-25T03:10:38.317257+00:00",
+      "finished_at": "2026-10-25T03:38:38.157203+00:00",
+      "observed_at": "2026-10-25T03:38:38.157203+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 606,
+      "duration_seconds": 1680.2,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 44,
+      "started_at": "2026-10-25T04:10:38.086474+00:00",
+      "finished_at": "2026-10-25T04:38:33.465807+00:00",
+      "observed_at": "2026-10-25T04:38:33.465807+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 610,
+      "duration_seconds": 1675.75,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 45,
+      "started_at": "2026-10-25T05:10:37.868124+00:00",
+      "finished_at": "2026-10-25T05:39:15.035334+00:00",
+      "observed_at": "2026-10-25T05:39:15.035334+00:00",
+      "count": 427,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 615,
+      "duration_seconds": 1717.53,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 46,
+      "started_at": "2026-10-25T06:10:37.608097+00:00",
+      "finished_at": "2026-10-25T06:38:55.854246+00:00",
+      "observed_at": "2026-10-25T06:38:55.854246+00:00",
+      "count": 425,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 618,
+      "duration_seconds": 1698.6,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 47,
+      "started_at": "2026-10-25T07:10:37.385758+00:00",
+      "finished_at": "2026-10-25T07:38:51.074312+00:00",
+      "observed_at": "2026-10-25T07:38:51.074312+00:00",
+      "count": 425,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 616,
+      "duration_seconds": 1694.05,
+      "errors": [],
+      "limitations": []
     }
   ]
 }
