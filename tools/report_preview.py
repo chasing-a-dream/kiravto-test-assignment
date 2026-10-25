@@ -48,9 +48,9 @@ class Report:
         with self.lock:
             if self.failed or self.body is None:
                 return 503, ('<!doctype html><html lang="ru"><meta charset="utf-8">'
-                             '<meta http-equiv="refresh" content="60"><h1>Не удалось обновить отчёт</h1>'
+                             '<meta http-equiv="refresh" content="300"><h1>Не удалось обновить отчёт</h1>'
                              '<p>Проверьте Docker Desktop и контейнер API. Сохранённый HTML остаётся '
-                             'прежним снимком. Следующая попытка — через минуту.</p></html>').encode('utf-8')
+                             'прежним снимком. Следующая попытка — через пять минут.</p></html>').encode('utf-8')
             return 200, self.body
 
 
@@ -78,11 +78,11 @@ def main():
     stop = threading.Event()
 
     def poll():
-        while not stop.wait(60):
+        while not stop.wait(300):
             report.refresh()
 
     threading.Thread(target=poll, daemon=True).start()
-    print('HTML: http://127.0.0.1:8765/ — обновление раз в минуту', flush=True)
+    print('HTML: http://127.0.0.1:8765/ — обновление раз в пять минут', flush=True)
     try:
         server.serve_forever()
     finally:
