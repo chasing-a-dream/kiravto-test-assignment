@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-25T17:01:21.189732+00:00",
+  "scenario": "daily",
+  "local_hour_for_this_invocation": 0,
+  "timezone": "Europe/Moscow",
+  "run_id": 57,
+  "run_complete": true,
+  "processed_count": 423,
+  "health": "ok",
+  "stale": false,
+  "proposals": [],
+  "note": "Only the hour gate was overridden; posted-today and verified fresh active-card filters remained enabled. No channel publication was performed."
+}

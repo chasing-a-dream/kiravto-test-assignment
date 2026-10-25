@@ -1,49 +1,7 @@
 {
-  "checked_at_utc": "2026-10-25T14:44:39.519346+00:00",
+  "checked_at_utc": "2026-10-25T17:01:21.998818+00:00",
   "note": "Dated completed-run snapshot. count means processed records in each run, not the whole stock.",
   "runs": [
-    {
-      "id": 39,
-      "started_at": "2026-10-24T23:10:40.380942+00:00",
-      "finished_at": "2026-10-24T23:38:33.269915+00:00",
-      "observed_at": "2026-10-24T23:38:33.269915+00:00",
-      "count": 427,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 604,
-      "duration_seconds": 1673.23,
-      "errors": [],
-      "limitations": []
-    },
-    {
-      "id": 40,
-      "started_at": "2026-10-25T00:10:40.087389+00:00",
-      "finished_at": "2026-10-25T00:23:19.823205+00:00",
-      "observed_at": "2026-10-25T00:23:19.823205+00:00",
-      "count": 427,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 299,
-      "duration_seconds": 760.01,
-      "errors": [],
-      "limitations": []
-    },
-    {
-      "id": 41,
-      "started_at": "2026-10-25T01:10:38.780234+00:00",
-      "finished_at": "2026-10-25T01:38:33.804716+00:00",
-      "observed_at": "2026-10-25T01:38:33.804716+00:00",
-      "count": 427,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 610,
-      "duration_seconds": 1675.36,
-      "errors": [],
-      "limitations": []
-    },
     {
       "id": 42,
       "started_at": "2026-10-25T02:10:38.525527+00:00",
@@ -228,6 +186,60 @@
       "details_complete": true,
       "requests": 570,
       "duration_seconds": 1714.93,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 55,
+      "started_at": "2026-10-25T15:01:46.162474+00:00",
+      "finished_at": "2026-10-25T15:02:16.690566+00:00",
+      "observed_at": "2026-10-25T15:02:16.690566+00:00",
+      "count": 0,
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": true,
+      "requests": 1,
+      "duration_seconds": 30.54,
+      "errors": [
+        "Source unavailable; retry at next scheduled run"
+      ],
+      "limitations": [
+        "unfiltered_inventory_not_verified",
+        "pagination_or_inventory_shift",
+        "category_coverage_not_verified",
+        "original_photos_not_verified"
+      ]
+    },
+    {
+      "id": 56,
+      "started_at": "2026-10-25T16:01:54.601393+00:00",
+      "finished_at": "2026-10-25T16:09:06.428814+00:00",
+      "observed_at": "2026-10-25T16:09:06.428814+00:00",
+      "count": 51,
+      "complete": false,
+      "inventory_complete": false,
+      "details_complete": false,
+      "requests": 116,
+      "duration_seconds": 431.88,
+      "errors": [
+        "photo 1160489846-107ec7be: Photo 1160489846-107ec7be: Original image failed decoding or dimensions verification"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "category_coverage_not_verified"
+      ]
+    },
+    {
+      "id": 57,
+      "started_at": "2026-10-25T16:34:30.504418+00:00",
+      "finished_at": "2026-10-25T17:00:40.766820+00:00",
+      "observed_at": "2026-10-25T17:00:40.766820+00:00",
+      "count": 423,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 584,
+      "duration_seconds": 1570.6,
       "errors": [],
       "limitations": []
     }
