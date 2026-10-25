@@ -74,5 +74,10 @@ def create_app(settings=None):
     @app.get('/report',response_class=HTMLResponse,dependencies=[Depends(auth)])
     def report():
         with storage() as store:
-            return render_report(calculate(store,datetime.now(timezone.utc).isoformat()))
+            summary=calculate(store,datetime.now(timezone.utc).isoformat())
+            rows=with_metrics(settings.db,store.runs())
+            summary['recent_runs']=rows[:20]
+            full=store.db.execute('SELECT * FROM runs WHERE complete=1 ORDER BY id DESC LIMIT 1').fetchone()
+            summary['last_complete_run']=with_metrics(settings.db,[dict(full)])[0] if full else None
+            return HTMLResponse(render_report(summary),headers={'Cache-Control':'no-store'})
     return app

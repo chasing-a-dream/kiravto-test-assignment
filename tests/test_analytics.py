@@ -73,3 +73,15 @@ class AnalyticsTests(unittest.TestCase):
 
     def test_naive_timestamp_rejected(self):
         with self.assertRaises(ValueError): calculate(self.store,'2026-10-22T12:00:00')
+
+    def test_report_moscow_midnight_and_incomplete_freshness(self):
+        summary=calculate(self.store,'2026-10-24T23:02:03Z')
+        summary['recent_runs']=[{'id':2,'complete':False,'count':0,'observed_at':'2026-10-24T22:59:00Z',
+                                'started_at':'2026-10-24T22:58:00Z','finished_at':'2026-10-24T22:59:00Z'}]
+        summary['last_complete_run']={'id':1,'complete':True,'observed_at':'2026-10-24T21:00:00Z'}
+        html=render_report(summary)
+        self.assertIn('25.10.2026 02:02:03 МСК',html)
+        self.assertIn('25.10.2026 01:58:00 МСК',html)
+        self.assertIn('25.10.2026 01:59:00 МСК',html)
+        self.assertIn('последний прогон неполный',html)
+        self.assertNotIn('2026-10-24T',html)
