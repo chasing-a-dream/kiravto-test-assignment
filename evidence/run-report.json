@@ -1,17 +1,17 @@
 {
-  "exported_at": "2026-10-25T08:23:56.453838+00:00",
+  "exported_at": "2026-10-25T14:44:39.519346+00:00",
   "stock": {
-    "active": 425,
-    "removed": 32,
+    "active": 423,
+    "removed": 34,
     "total": 457
   },
   "summary": {
-    "runs": 47,
-    "complete": 22,
-    "incomplete": 25,
+    "runs": 54,
+    "complete": 28,
+    "incomplete": 26,
     "runs_without_detailed_metrics": 0,
-    "requests_recorded": 18261,
-    "recorded_duration_seconds": 48111.47
+    "requests_recorded": 22440,
+    "recorded_duration_seconds": 59563.7
   },
   "notes": [
     "All completed rows in the working runs table; an in-progress collection is written only on completion.",
@@ -2146,6 +2146,316 @@
         "photo_sha256_changed": 1,
         "photos_changed": 52,
         "source_updated_at_changed": 420
+      }
+    },
+    {
+      "id": 48,
+      "observed_at": "2026-10-25T08:39:07.047249+00:00",
+      "requested_complete": true,
+      "complete": true,
+      "expected_count": 425,
+      "count": 425,
+      "coverage": 1.0,
+      "anomalies": [],
+      "metrics_available": true,
+      "started_at": "2026-10-25T08:10:37.136755+00:00",
+      "finished_at": "2026-10-25T08:39:07.047249+00:00",
+      "adapter": "autoru_ris_price_partitions",
+      "inventory_complete": true,
+      "details_complete": true,
+      "seen_ids": 425,
+      "category_counts": {
+        "newOffersCount": 171,
+        "usedOffersCount": 254
+      },
+      "sections_seen": {
+        "new": 171,
+        "used": 254
+      },
+      "requests": 618,
+      "details_fetched": 424,
+      "photos_fetched": 53,
+      "duration_seconds": 1710.24,
+      "errors": [],
+      "limitations": [],
+      "inventory_drift": false,
+      "cache_reused": 1,
+      "missing_confirmations": {},
+      "counter_rechecks": [],
+      "events": {
+        "photo_evidence_changed": 53,
+        "photo_sha256_changed": 1,
+        "photos_changed": 52,
+        "source_updated_at_changed": 423
+      }
+    },
+    {
+      "id": 49,
+      "observed_at": "2026-10-25T09:29:51.062598+00:00",
+      "requested_complete": true,
+      "complete": true,
+      "expected_count": 425,
+      "count": 425,
+      "coverage": 1.0,
+      "anomalies": [],
+      "metrics_available": true,
+      "started_at": "2026-10-25T09:01:47.605340+00:00",
+      "finished_at": "2026-10-25T09:29:51.062598+00:00",
+      "adapter": "autoru_ris_price_partitions",
+      "inventory_complete": true,
+      "details_complete": true,
+      "seen_ids": 425,
+      "category_counts": {
+        "newOffersCount": 171,
+        "usedOffersCount": 254
+      },
+      "sections_seen": {
+        "new": 171,
+        "used": 254
+      },
+      "requests": 753,
+      "details_fetched": 414,
+      "photos_fetched": 197,
+      "duration_seconds": 1683.83,
+      "errors": [],
+      "limitations": [],
+      "inventory_drift": false,
+      "cache_reused": 11,
+      "missing_confirmations": {},
+      "counter_rechecks": [],
+      "events": {
+        "photo_evidence_changed": 197,
+        "photos_changed": 51,
+        "source_updated_at_changed": 418,
+        "trim_changed": 1,
+        "trim_id_changed": 1
+      }
+    },
+    {
+      "id": 50,
+      "observed_at": "2026-10-25T10:29:38.059326+00:00",
+      "requested_complete": true,
+      "complete": true,
+      "expected_count": 425,
+      "count": 425,
+      "coverage": 1.0,
+      "anomalies": [],
+      "metrics_available": true,
+      "started_at": "2026-10-25T10:01:47.353898+00:00",
+      "finished_at": "2026-10-25T10:29:38.059326+00:00",
+      "adapter": "autoru_ris_price_partitions",
+      "inventory_complete": true,
+      "details_complete": true,
+      "seen_ids": 425,
+      "category_counts": {
+        "newOffersCount": 171,
+        "usedOffersCount": 254
+      },
+      "sections_seen": {
+        "new": 171,
+        "used": 254
+      },
+      "requests": 608,
+      "details_fetched": 415,
+      "photos_fetched": 51,
+      "duration_seconds": 1671.09,
+      "errors": [],
+      "limitations": [],
+      "inventory_drift": false,
+      "cache_reused": 10,
+      "missing_confirmations": {},
+      "counter_rechecks": [],
+      "events": {
+        "missing_fields_changed": 1,
+        "photo_evidence_changed": 51,
+        "photos_changed": 51,
+        "source_updated_at_changed": 415,
+        "trim_changed": 2,
+        "trim_id_changed": 2,
+        "trim_not_published_changed": 1
+      }
+    },
+    {
+      "id": 51,
+      "observed_at": "2026-10-25T11:20:56.237862+00:00",
+      "requested_complete": true,
+      "complete": true,
+      "expected_count": 425,
+      "count": 425,
+      "coverage": 1.0,
+      "anomalies": [],
+      "metrics_available": true,
+      "started_at": "2026-10-25T11:01:47.106854+00:00",
+      "finished_at": "2026-10-25T11:20:56.237862+00:00",
+      "adapter": "autoru_ris_price_partitions",
+      "inventory_complete": true,
+      "details_complete": true,
+      "seen_ids": 425,
+      "category_counts": {
+        "newOffersCount": 171,
+        "usedOffersCount": 254
+      },
+      "sections_seen": {
+        "new": 171,
+        "used": 254
+      },
+      "requests": 425,
+      "details_fetched": 232,
+      "photos_fetched": 51,
+      "duration_seconds": 1149.39,
+      "errors": [],
+      "limitations": [],
+      "inventory_drift": false,
+      "cache_reused": 193,
+      "missing_confirmations": {},
+      "counter_rechecks": [],
+      "events": {
+        "photo_evidence_changed": 51,
+        "photos_changed": 51,
+        "source_updated_at_changed": 220,
+        "trim_changed": 1,
+        "trim_id_changed": 1
+      }
+    },
+    {
+      "id": 52,
+      "observed_at": "2026-10-25T12:30:00.274409+00:00",
+      "requested_complete": true,
+      "complete": true,
+      "expected_count": 425,
+      "count": 425,
+      "coverage": 1.0,
+      "anomalies": [],
+      "metrics_available": true,
+      "started_at": "2026-10-25T12:01:46.873293+00:00",
+      "finished_at": "2026-10-25T12:30:00.274409+00:00",
+      "adapter": "autoru_ris_price_partitions",
+      "inventory_complete": true,
+      "details_complete": true,
+      "seen_ids": 425,
+      "category_counts": {
+        "newOffersCount": 171,
+        "usedOffersCount": 254
+      },
+      "sections_seen": {
+        "new": 171,
+        "used": 254
+      },
+      "requests": 616,
+      "details_fetched": 424,
+      "photos_fetched": 51,
+      "duration_seconds": 1693.71,
+      "errors": [],
+      "limitations": [],
+      "inventory_drift": false,
+      "cache_reused": 1,
+      "missing_confirmations": {},
+      "counter_rechecks": [],
+      "events": {
+        "missing_fields_changed": 1,
+        "photo_evidence_changed": 51,
+        "photos_changed": 51,
+        "source_updated_at_changed": 424,
+        "trim_changed": 2,
+        "trim_id_changed": 2,
+        "trim_not_published_changed": 1
+      }
+    },
+    {
+      "id": 53,
+      "observed_at": "2026-10-25T13:32:15.362799+00:00",
+      "requested_complete": false,
+      "complete": false,
+      "expected_count": 424,
+      "count": 423,
+      "coverage": 0.9952941176470588,
+      "anomalies": [
+        {
+          "type": "expected_count_mismatch",
+          "expected_count": 424
+        }
+      ],
+      "metrics_available": true,
+      "started_at": "2026-10-25T13:01:46.633163+00:00",
+      "finished_at": "2026-10-25T13:32:15.362799+00:00",
+      "adapter": "autoru_ris_price_partitions",
+      "inventory_complete": true,
+      "details_complete": false,
+      "seen_ids": 424,
+      "category_counts": {
+        "newOffersCount": 171,
+        "usedOffersCount": 253
+      },
+      "sections_seen": {
+        "new": 171,
+        "used": 253
+      },
+      "requests": 589,
+      "details_fetched": 410,
+      "photos_fetched": 51,
+      "duration_seconds": 1829.04,
+      "errors": [
+        "card 1133537459-056674a0: Source API transport unavailable after one retry"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "missing_offer_confirmation_required"
+      ],
+      "inventory_drift": false,
+      "cache_reused": 13,
+      "missing_confirmations": {},
+      "counter_rechecks": [],
+      "events": {
+        "photo_evidence_changed": 51,
+        "photos_changed": 51,
+        "source_updated_at_changed": 410,
+        "trim_changed": 1,
+        "trim_id_changed": 1
+      }
+    },
+    {
+      "id": 54,
+      "observed_at": "2026-10-25T14:30:20.991059+00:00",
+      "requested_complete": true,
+      "complete": true,
+      "expected_count": 423,
+      "count": 423,
+      "coverage": 0.9952941176470588,
+      "anomalies": [],
+      "metrics_available": true,
+      "started_at": "2026-10-25T14:01:46.390658+00:00",
+      "finished_at": "2026-10-25T14:30:20.991059+00:00",
+      "adapter": "autoru_ris_price_partitions",
+      "inventory_complete": true,
+      "details_complete": true,
+      "seen_ids": 423,
+      "category_counts": {
+        "newOffersCount": 171,
+        "usedOffersCount": 252
+      },
+      "sections_seen": {
+        "new": 171,
+        "used": 252
+      },
+      "requests": 570,
+      "details_fetched": 391,
+      "photos_fetched": 51,
+      "duration_seconds": 1714.93,
+      "errors": [],
+      "limitations": [],
+      "inventory_drift": false,
+      "cache_reused": 32,
+      "missing_confirmations": {
+        "INACTIVE:confirmed": 2
+      },
+      "counter_rechecks": [],
+      "events": {
+        "photo_evidence_changed": 51,
+        "photos_changed": 52,
+        "removed": 2,
+        "source_updated_at_changed": 391,
+        "trim_changed": 1,
+        "trim_id_changed": 1
       }
     }
   ]

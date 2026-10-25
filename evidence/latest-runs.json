@@ -1,132 +1,7 @@
 {
-  "checked_at_utc": "2026-10-25T08:23:56.453838+00:00",
+  "checked_at_utc": "2026-10-25T14:44:39.519346+00:00",
   "note": "Dated completed-run snapshot. count means processed records in each run, not the whole stock.",
   "runs": [
-    {
-      "id": 32,
-      "started_at": "2026-10-24T18:31:00.677755+00:00",
-      "finished_at": "2026-10-24T18:46:08.116421+00:00",
-      "observed_at": "2026-10-24T18:46:08.116421+00:00",
-      "count": 261,
-      "complete": false,
-      "inventory_complete": false,
-      "details_complete": true,
-      "requests": 485,
-      "duration_seconds": 907.66,
-      "errors": [
-        "Price partition leaf count or unique IDs disagree"
-      ],
-      "limitations": [
-        "category_coverage_not_verified"
-      ]
-    },
-    {
-      "id": 33,
-      "started_at": "2026-10-24T19:31:00.443316+00:00",
-      "finished_at": "2026-10-24T19:45:48.451705+00:00",
-      "observed_at": "2026-10-24T19:45:48.451705+00:00",
-      "count": 260,
-      "complete": false,
-      "inventory_complete": false,
-      "details_complete": true,
-      "requests": 368,
-      "duration_seconds": 888.21,
-      "errors": [
-        "Partition ALL inventory changed since card collection"
-      ],
-      "limitations": [
-        "category_coverage_not_verified"
-      ]
-    },
-    {
-      "id": 34,
-      "started_at": "2026-10-24T20:31:00.221816+00:00",
-      "finished_at": "2026-10-24T20:41:30.860488+00:00",
-      "observed_at": "2026-10-24T20:41:30.860488+00:00",
-      "count": 179,
-      "complete": false,
-      "inventory_complete": false,
-      "details_complete": false,
-      "requests": 223,
-      "duration_seconds": 630.79,
-      "errors": [
-        "Rouble price missing or invalid"
-      ],
-      "limitations": [
-        "detail_limit_or_unavailable_cards",
-        "category_coverage_not_verified"
-      ]
-    },
-    {
-      "id": 35,
-      "started_at": "2026-10-24T21:29:44.393897+00:00",
-      "finished_at": "2026-10-24T21:31:33.183947+00:00",
-      "observed_at": "2026-10-24T21:31:33.183947+00:00",
-      "count": 0,
-      "complete": false,
-      "inventory_complete": false,
-      "details_complete": true,
-      "requests": 37,
-      "duration_seconds": 108.8,
-      "errors": [
-        "Price partition children do not cover parent count"
-      ],
-      "limitations": [
-        "unfiltered_inventory_not_verified",
-        "pagination_or_inventory_shift",
-        "category_coverage_not_verified",
-        "original_photos_not_verified"
-      ]
-    },
-    {
-      "id": 36,
-      "started_at": "2026-10-24T21:32:42.403383+00:00",
-      "finished_at": "2026-10-24T21:34:58.640725+00:00",
-      "observed_at": "2026-10-24T21:34:58.640725+00:00",
-      "count": 0,
-      "complete": false,
-      "inventory_complete": false,
-      "details_complete": true,
-      "requests": 46,
-      "duration_seconds": 136.25,
-      "errors": [
-        "Price partition children do not cover parent count"
-      ],
-      "limitations": [
-        "unfiltered_inventory_not_verified",
-        "pagination_or_inventory_shift",
-        "category_coverage_not_verified",
-        "original_photos_not_verified"
-      ]
-    },
-    {
-      "id": 37,
-      "started_at": "2026-10-24T21:40:41.071661+00:00",
-      "finished_at": "2026-10-24T22:10:09.932226+00:00",
-      "observed_at": "2026-10-24T22:10:09.932226+00:00",
-      "count": 427,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 633,
-      "duration_seconds": 1769.28,
-      "errors": [],
-      "limitations": []
-    },
-    {
-      "id": 38,
-      "started_at": "2026-10-24T22:10:40.615533+00:00",
-      "finished_at": "2026-10-24T22:27:06.142677+00:00",
-      "observed_at": "2026-10-24T22:27:06.142677+00:00",
-      "count": 427,
-      "complete": true,
-      "inventory_complete": true,
-      "details_complete": true,
-      "requests": 374,
-      "duration_seconds": 985.75,
-      "errors": [],
-      "limitations": []
-    },
     {
       "id": 39,
       "started_at": "2026-10-24T23:10:40.380942+00:00",
@@ -250,6 +125,109 @@
       "details_complete": true,
       "requests": 616,
       "duration_seconds": 1694.05,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 48,
+      "started_at": "2026-10-25T08:10:37.136755+00:00",
+      "finished_at": "2026-10-25T08:39:07.047249+00:00",
+      "observed_at": "2026-10-25T08:39:07.047249+00:00",
+      "count": 425,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 618,
+      "duration_seconds": 1710.24,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 49,
+      "started_at": "2026-10-25T09:01:47.605340+00:00",
+      "finished_at": "2026-10-25T09:29:51.062598+00:00",
+      "observed_at": "2026-10-25T09:29:51.062598+00:00",
+      "count": 425,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 753,
+      "duration_seconds": 1683.83,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 50,
+      "started_at": "2026-10-25T10:01:47.353898+00:00",
+      "finished_at": "2026-10-25T10:29:38.059326+00:00",
+      "observed_at": "2026-10-25T10:29:38.059326+00:00",
+      "count": 425,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 608,
+      "duration_seconds": 1671.09,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 51,
+      "started_at": "2026-10-25T11:01:47.106854+00:00",
+      "finished_at": "2026-10-25T11:20:56.237862+00:00",
+      "observed_at": "2026-10-25T11:20:56.237862+00:00",
+      "count": 425,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 425,
+      "duration_seconds": 1149.39,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 52,
+      "started_at": "2026-10-25T12:01:46.873293+00:00",
+      "finished_at": "2026-10-25T12:30:00.274409+00:00",
+      "observed_at": "2026-10-25T12:30:00.274409+00:00",
+      "count": 425,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 616,
+      "duration_seconds": 1693.71,
+      "errors": [],
+      "limitations": []
+    },
+    {
+      "id": 53,
+      "started_at": "2026-10-25T13:01:46.633163+00:00",
+      "finished_at": "2026-10-25T13:32:15.362799+00:00",
+      "observed_at": "2026-10-25T13:32:15.362799+00:00",
+      "count": 423,
+      "complete": false,
+      "inventory_complete": true,
+      "details_complete": false,
+      "requests": 589,
+      "duration_seconds": 1829.04,
+      "errors": [
+        "card 1133537459-056674a0: Source API transport unavailable after one retry"
+      ],
+      "limitations": [
+        "detail_limit_or_unavailable_cards",
+        "missing_offer_confirmation_required"
+      ]
+    },
+    {
+      "id": 54,
+      "started_at": "2026-10-25T14:01:46.390658+00:00",
+      "finished_at": "2026-10-25T14:30:20.991059+00:00",
+      "observed_at": "2026-10-25T14:30:20.991059+00:00",
+      "count": 423,
+      "complete": true,
+      "inventory_complete": true,
+      "details_complete": true,
+      "requests": 570,
+      "duration_seconds": 1714.93,
       "errors": [],
       "limitations": []
     }
