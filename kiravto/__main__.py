@@ -6,16 +6,28 @@ from kiravto.config import Settings
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('command',choices=['api','collect','worker','mcp','bot'])
+    parser.add_argument('command',choices=['api','collect','worker','mcp','bot','facts'])
+    parser.add_argument('offer',nargs='?',help='ID или HTTPS-ссылка на одну сохранённую карточку для facts')
+    parser.add_argument('--dry-run',action='store_true',help='Предпросмотр facts без обращения к модели')
+    parser.add_argument('--json',action='store_true',help='Вывести результат facts как JSON')
     parser.add_argument('--max-pages',type=int,default=30)
     parser.add_argument('--max-details',type=int)
     parser.add_argument('--inventory-strategy',choices=['pages','price-partitions'],default='pages')
     args=parser.parse_args()
+    if args.command=='facts' and not args.offer:parser.error('facts требует ID или ссылку на одну карточку')
+    if args.command!='facts' and (args.offer or args.dry_run or args.json):parser.error('offer, --dry-run и --json используются только с facts')
     if args.command=='mcp':
         from kiravto.mcp_server import main as serve
         serve()
         return
     settings=Settings.load()
+    if args.command=='facts':
+        from kiravto.manual_facts import extract_one,render
+        try:result=extract_one(settings,args.offer,key=os.getenv('LLM_API_KEY',''),dry_run=args.dry_run)
+        except ValueError as exc:parser.error(str(exc))
+        print(json.dumps(result,ensure_ascii=False,indent=2) if args.json else render(result))
+        if result['status'] not in ('done','preview','empty'):raise SystemExit(1)
+        return
     if args.command=='bot':
         from kiravto.telegram import worker
         worker(settings)

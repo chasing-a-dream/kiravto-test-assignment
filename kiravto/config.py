@@ -25,6 +25,7 @@ class Settings:
     telegram_proxy: str = ''
     mode: str = 'test'
     production_enabled: bool = False
+    llm_auto_enabled: bool = False
 
     def __post_init__(self):
         expected=delivery_channel(self.mode,self.production_enabled)
@@ -41,4 +42,4 @@ class Settings:
         db = os.getenv('DB_PATH','data/stock.sqlite')
         channel=delivery_channel(mode,enabled,os.getenv('TELEGRAM_TEST_CHANNEL',TEST_CHANNEL),os.getenv('TELEGRAM_PRODUCTION_CHANNEL',PRODUCTION_CHANNEL))
         Path(db).parent.mkdir(parents=True,exist_ok=True)
-        return cls(db,os.getenv('API_TOKEN',''),os.getenv('TELEGRAM_BOT_TOKEN',''),os.getenv('TELEGRAM_ADMIN_CHAT_ID',''),tuple(x.strip() for x in os.getenv('TELEGRAM_MODERATOR_IDS','').split(',') if x.strip()),channel,os.getenv('POST_JOBS_ENABLED','false').lower()=='true',os.getenv('LLM_API_KEY','') if os.getenv('LLM_ENABLED','false').lower()=='true' else '',os.getenv('LLM_MODEL','openrouter/free'),os.getenv('LLM_DAILY_BUDGET_USD','0.10'),os.getenv('TELEGRAM_PROXY_URL',''),mode,enabled)
+        return cls(db,os.getenv('API_TOKEN',''),os.getenv('TELEGRAM_BOT_TOKEN',''),os.getenv('TELEGRAM_ADMIN_CHAT_ID',''),tuple(x.strip() for x in os.getenv('TELEGRAM_MODERATOR_IDS','').split(',') if x.strip()),channel,os.getenv('POST_JOBS_ENABLED','false').lower()=='true',os.getenv('LLM_API_KEY','') if os.getenv('LLM_ENABLED','false').lower()=='true' else '',os.getenv('LLM_MODEL','openrouter/free'),os.getenv('LLM_DAILY_BUDGET_USD','0.10'),os.getenv('TELEGRAM_PROXY_URL',''),mode,enabled,os.getenv('LLM_AUTO_ENABLED','false').lower()=='true')

@@ -2,6 +2,7 @@ from kiravto.domain import Store
 from kiravto.llm import FactService
 
 def enrich(settings):
+    if not settings.llm_auto_enabled: return {'status':'manual_only','requests':0}
     if not settings.llm_key: return {'status':'disabled','requests':0}
     service=FactService(settings.db,key=settings.llm_key,model=settings.llm_model,daily_budget=settings.llm_daily_budget)
     store=Store(settings.db)
